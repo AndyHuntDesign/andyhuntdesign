@@ -8,7 +8,7 @@
  */
 ?>
 
-<?php include ('header.php'); ?>
+<?php include ('headerb;pg.php'); ?>
 
 <div id="blog-wrap">
     

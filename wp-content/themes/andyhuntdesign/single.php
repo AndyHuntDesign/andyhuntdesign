@@ -9,13 +9,13 @@
 ?>
 
 
-<?php include ('headermain.php'); ?>
+<?php include ('header.php'); ?>
 <?php while (have_posts()) : the_post(); ?>
 
 
 <?php global $post; ?>
 <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
-<div class="blogheader" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center !important; background-size:cover!important;">
+<div class="blogpostheader" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center !important; background-size:cover!important;">
     <div class="row">
 
         <div class="col2">
@@ -52,20 +52,19 @@
     </div>
 </div>    
 
-  <div class="container blogcopy">
+  <div class="container blogpostcopy">
 
     
 
     <div class="row content">
-        <div class="blogcontent">     
+        <div class="blogpostcontent">     
             <?php the_content(); ?>
         </div>
-            <?php the_tags('<p>Tags: ', ', ', '</p>'); ?>
+    </div>
+</div>
+    <div class="blog-divider"></div>
             <?php endwhile; // end of the loop. ?>
-            <hr/>
 
-            <?php comments_template(); ?>
-            <?php bootstrapwp_content_nav('nav-below'); ?>
 
-    <?php get_sidebar('blog'); ?>
+
     <?php get_footer(); ?>
