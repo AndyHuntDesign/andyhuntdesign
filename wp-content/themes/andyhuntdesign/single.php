@@ -47,24 +47,20 @@
             </div>
         </div>
 
-
-
     </div>
 </div>    
 
   <div class="container blogpostcopy">
-
-    
-
     <div class="row content">
-        <div class="blogpostcontent">     
-            <?php the_content(); ?>
+        <div class="blogpostwrap">
+            <div class="blogpostcontent"> 
+                <?php the_content(); ?>    
+            </div>
         </div>
     </div>
-</div>
+    </div>
     <div class="blog-divider"></div>
-            <?php endwhile; // end of the loop. ?>
-
-
+     
+    <?php endwhile; // end of the loop. ?>
 
     <?php get_footer(); ?>

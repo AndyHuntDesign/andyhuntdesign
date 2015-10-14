@@ -3089,34 +3089,70 @@ section {
 
 .blogpostcopy {
   position:relative;
+  /*margin-top:-100px;*/
 }
 
 .blogpostcopy p{
   color:#ffffff;
 }
 
+.blogpostcopy a{
+  color:#ffffff;
+  text-decoration:underline;
+}
+
 .blogpostcopy .row {
   width:100%;
   margin:0 auto;
   padding-top:60px;
-  overflow:hidden;
+  /*overflow:hidden;*/
   background: url(images/portfolio_bg.png)
 }
 
+.blogpostcopy .blogpostwrap {
+  width:1600px;
+  margin:0 auto;
+}
+
 .blogpostcopy .row .blogpostcontent {
-max-width: 980px;
-    margin: -100px auto 0 auto;
-    padding: 0 220px 80px 0;
-    overflow: hidden;
+  max-width: 720px;
+  margin: -160px 0 0 auto;
+  padding: 80px 480px 80px 80px;
+  background: url(images/portfolio_bg.png);
+  /*overflow: hidden;*/
 }
 
 .single-post .navbar-relative-top {
   background:none!important;
 }
 
+blockquote {
+    padding: 0 0 0 145px;
+    margin: 0 0 20px;
+    border-top:1px solid #333333;
+    border-bottom:1px solid #333333;
+    border-left: 0!important;
+    background: url(images/blockquote.png) no-repeat 0 70px;
+}
 
+blockquote p {
+    font-style:italic;
+    font-size:20px;
+    line-height: 28px;
+    padding:70px 0;
+}
 
-
+.blockquote-source {
+  margin-top:-70px;
+  padding:0 0 0 15px;
+  background:red;
+  width:auto;
+  float:right;
+  font-size:13px;
+  text-transform: uppercase;
+  color:#ffffff;
+  background: url(images/portfolio_bg.png);
+}
 
 
 
