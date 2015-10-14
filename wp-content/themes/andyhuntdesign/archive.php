@@ -12,14 +12,7 @@ get_header(); ?>
     the_post(); ?>
 
     <div class="container">
-        <div class="row">
-            <div class="span12">
-                <?php if (function_exists('bootstrapwp_breadcrumbs')) {
-                bootstrapwp_breadcrumbs();
-            } ?>
-            </div>
-        </div>
-
+        
         <div class="row content">
             <div class="span8">
 
@@ -49,7 +42,7 @@ get_header(); ?>
                             }
                         } elseif (is_category()) {
                             printf(
-                                __('Category Archives: %s', 'bootstrapwp'),
+                                __('CATEGORY: %s', 'bootstrapwp'),
                                 '<span>' . single_cat_title('', false) . '</span>'
                             );
                             // Show an optional category description
@@ -101,5 +94,5 @@ get_header(); ?>
             <?php endif; ?>
         </div>
 
-    <?php get_sidebar('blog'); ?>
+
     <?php get_footer(); ?>

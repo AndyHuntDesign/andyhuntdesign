@@ -6153,7 +6153,7 @@ a.badge:hover {
     padding-right: 10px;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
