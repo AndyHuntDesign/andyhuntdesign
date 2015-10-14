@@ -1175,7 +1175,7 @@ a.brand {
 }
 
 .navbar form {
-  width:500px;
+  width:200px;
 }
 
 .screen-reader-text {
@@ -3094,7 +3094,6 @@ section {
   float:left;
 }
 
-
 .blogpostwrapper a {
   color:#444444;
   text-decoration: none;
@@ -3275,9 +3274,92 @@ blockquote p {
 }
 
 
+/* Responive */
 
+@media only screen and (max-width: 1600px)  {
+.blogpostheader .row  {
+  width:1280px;
+}
+.blogpostcopy .blogpostwrap {
+  width:1280px;
+}
+.blogpostcopy .row .blogpostcontent {
+  max-width: 720px;
+  margin: -160px 0 0 auto;
+  padding: 80px 380px 80px 80px;
+  background: url(images/portfolio_bg.png);
+}
+}
 
+@media only screen and (max-width: 1280px)  {
+.blogpostheader .row  {
+  width:100%;
+}
+.blogpostcopy .blogpostwrap {
+  width:100%;
+}
+.blogpostcopy .row .blogpostcontent {
+  max-width: 680px;
+  margin: -160px 0 0 auto;
+  padding: 80px 20% 80px 80px;
+  background: url(images/portfolio_bg.png);
+}
+}
 
+@media only screen and (max-width: 1024px)  {
+.blogpostheader .row  {
+  width:100%;
+  margin-top: 75px;
+}
+
+.blogpostheader {
+    height: 450px;
+}
+
+.blogpostcopy .blogpostwrap {
+  width:100%;
+}
+
+.blogpostcopy .row .blogpostcontent {
+  max-width: 680px;
+  margin: -160px 0 0 auto;
+  padding: 60px 20% 60px 60px;
+  background: url(images/portfolio_bg.png);
+}
+
+.blogpostheader .col1 {
+  padding: 15px 0 13px 0;
+}
+
+.blogpostheader .col2 {
+    width: 350px;
+}
+
+.blogpostheader .col1 li.day {
+    font-size: 28px;
+    line-height: 1px;
+}
+
+.blogpostheader .panel {
+    max-height: 210px;
+    padding:25px 25px 80px 25px;
+}
+
+.blogpostheader .categories {
+    width: 300px;
+    padding: 25px;
+    font-size:14px;
+}
+
+.blogpostheader .panel h1 {
+    font-size: 48px;
+    color: #fff;
+    line-height: 50px;
+}
+.tab-none {
+  display:none;
+}
+}
 
 
 
