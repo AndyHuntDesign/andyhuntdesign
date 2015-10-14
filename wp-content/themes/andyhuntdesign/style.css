@@ -3313,7 +3313,7 @@ blockquote p {
 }
 
 .blogpostheader {
-    height: 450px;
+  height: 450px;
 }
 
 .blogpostcopy .blogpostwrap {
@@ -3332,38 +3332,63 @@ blockquote p {
 }
 
 .blogpostheader .col2 {
-    width: 350px;
+  width: 350px;
 }
 
 .blogpostheader .col1 li.day {
-    font-size: 28px;
-    line-height: 1px;
+  font-size: 28px;
+  line-height: 1px;
 }
 
 .blogpostheader .panel {
-    max-height: 210px;
-    padding:25px 25px 80px 25px;
+  max-height: 210px;
+  padding:25px 25px 80px 25px;
 }
 
 .blogpostheader .categories {
-    width: 300px;
-    padding: 25px;
-    font-size:14px;
+  width: 300px;
+  padding: 25px;
+  font-size:14px;
 }
 
 .blogpostheader .panel h1 {
-    font-size: 48px;
-    color: #fff;
-    line-height: 50px;
+  font-size: 48px;
+  color: #fff;
+  line-height: 50px;
 }
 .tab-none {
   display:none;
 }
 }
 
-
-
-
+@media only screen and (max-width: 700px)  {
+.blogpostcopy .row {
+    padding-top: 0px;
+}
+.blogpostheader {
+  height:100vh!important;
+}
+.blogpostheader .col1 {
+   position: absolute;
+   bottom:200px;
+}
+.blogpostcopy .row .blogpostcontent {
+  max-width: 680px;
+  margin: 0px 0 0 auto;
+}
+.blogpostheader .categories {
+  display:none;
+}
+.blogpostheader .panel {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    padding:0!important;
+    width:100%!important;
+    height:200px!important;
+    max-height:200px!important;
+}
+}
 
 
 
