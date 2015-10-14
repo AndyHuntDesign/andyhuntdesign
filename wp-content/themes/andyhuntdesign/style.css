@@ -1058,7 +1058,7 @@ a.brand {
   float: left;
   padding: 0 20px 0 0;
   margin: 39px 0px 0 0;
-  background: url(images/bulb.png) no-repeat;
+  /*background: url(images/bulb.png) no-repeat;*/
   background-position: 100% 50%;
   background-size: 6%;
 }
@@ -1174,6 +1174,43 @@ a.brand {
   float: none;
 }
 
+.navbar form {
+  width:500px;
+}
+
+.screen-reader-text {
+  display:none!important;
+}
+
+#searchsubmit {
+  background: url(images/search.png) no-repeat!important;
+  width:20px!important;
+  border:0!important;
+  border-bottom:0!important;
+  text-indent: -100000px;
+  margin-top: 0px;
+}
+
+.navbar input {
+  width:60px!important;
+  box-shadow: none!important;
+  border-bottom-color:rgba(255,255,255, 0.6)!important;
+  margin-top:-10px;
+  height:25px!important;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.navbar input:focus {
+  width:160px!important;
+}
+
+#searchform {
+  height:10px;
+}
 
 
 
@@ -1181,6 +1218,19 @@ a.brand {
 /**************************************
 ************  BURGER MENU *************
 **************************************/
+
+@media only screen and (max-width: 1024px)  {
+.nav-collapse, .nav-collapse.collapse {
+  background-color:#111111!important;
+}
+.navbar .nav > li:last-child {
+  margin-bottom:60px;
+  margin-top:20px;
+}
+.navbar input {
+  width:160px!important;
+}
+}
 
 @media only screen and (max-width: 768px)  {
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
@@ -2808,7 +2858,6 @@ footer ul li img{
 
 
 
-
 /**************************************
 *********** PORTFOLIO ITEMS ***********
 **************************************/
@@ -3016,7 +3065,7 @@ section {
 .blogpostheader .row {
   max-width:1600px;
   margin:0 auto;
-  overflow:hidden;
+  /*overflow:hidden;*/
 }
 
 .blogpostheader .panel {
@@ -3082,6 +3131,7 @@ section {
   padding-bottom: 15px;
   padding-top:6px;
 }
+
 .blogpostheader .col1 li.month {
   font-size:14px;
   text-align:center;
@@ -3105,8 +3155,7 @@ section {
   width:100%;
   margin:0 auto;
   padding-top:60px;
-  /*overflow:hidden;*/
-  background: url(images/portfolio_bg.png)
+  background: url(images/portfolio_bg.png);
 }
 
 .blogpostcopy .blogpostwrap {
@@ -3119,7 +3168,6 @@ section {
   margin: -160px 0 0 auto;
   padding: 80px 480px 80px 80px;
   background: url(images/portfolio_bg.png);
-  /*overflow: hidden;*/
 }
 
 .single-post .navbar-relative-top {
@@ -3144,15 +3192,16 @@ blockquote p {
 
 .blockquote-source {
   margin-top:-70px;
-  padding:0 0 0 15px;
+  padding:0 0 0 20px;
   background:red;
   width:auto;
   float:right;
   font-size:13px;
-  text-transform: uppercase;
   color:#ffffff;
   background: url(images/portfolio_bg.png);
 }
+
+
 
 
 
