@@ -2813,16 +2813,83 @@ footer ul li img{
 *********** SEARCH RESULTS ***********
 **************************************/
 
+header.post-title {
+  background: url(images/bg.png);
+  padding:40px 0;
+}
 
 .search-resuts img {
   width:auto;
   height:22px!important;
 }
 
+.search-resuts h1 span{
+  display:block;
+  font-family: 'Playfair Display', serif;
+  font-size:16px;
+  font-weight:200;
+  color: #ffffff;
+  margin-top:10px;
+}
+
+.search-resuts h3 {
+  font-family: ProximaNovaExCn-Thin;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.search-resuts a {
+  color:#ffffff;
+}
+
+.search-resuts a:hover {
+  text-decoration:none!important;
+}
+
+.search-resuts p.meta {
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.search-resuts p.meta {
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.search-resuts .meta-row {
+  width:30px;
+  height:30px;
+  margin-top:10px;
+  border-top:2px solid #555555;
+}
+
+.search-result-group p {
+  color: #ffffff;
+}
+
+.search-resuts .entry-date, .search-resuts .author .url  {
+  color: #ffffff!important;
+}
+
+.search-results .span8 {
+  background: url(images/portfolio_bg.png);
+}
+
 .search-results .resultrow {
   max-width:1600px;
 }
 
+.search-results hr {
+  border: none;
+  height: 1px;
+  color: #333; 
+  background-color: #333;
+}
 
 .search-entry-result {
   width:100%!important;
@@ -2837,6 +2904,12 @@ footer ul li img{
 .search-results-block {
   max-width:1200px!important;
   margin:0 auto;
+}
+
+.search-result-group {
+  max-width:1180px;
+  margin:0 auto; 
+  padding:20px 10px
 }
 
 .author-gapping {
