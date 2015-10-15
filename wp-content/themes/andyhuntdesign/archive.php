@@ -11,7 +11,7 @@ get_header(); ?>
     // Queue the first post.
     the_post(); ?>
 
-    <div class="container">
+    <div class="container archive">
         
         <div class="row content">
             <div class="span8">
@@ -58,6 +58,7 @@ get_header(); ?>
                         }
                         ?></h1>
                 </header>
+                <div class="portfolio-top-divider"></div>
                 <?php
                 // Rewind the loop back
                     rewind_posts();
@@ -65,9 +66,9 @@ get_header(); ?>
 
                 <?php while (have_posts()) : the_post(); ?>
                     <div <?php post_class(); ?>>
+                    <div class="search-result-group">    
                         <a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><h3><?php the_title();?></h3></a>
-
-                        <p class="meta"><?php echo bootstrapwp_posted_on();?></p>
+                        
 
                         <div class="row">
                             <?php // Post thumbnail conditional display.
@@ -84,8 +85,12 @@ get_header(); ?>
                                     <?php the_excerpt(); ?>
                                 </div>
                         </div><!-- /.row -->
+                         <div class="meta-row"></div>
+                        <p class="meta"><?php echo bootstrapwp_posted_on();?></p>
 
-                        <hr/>
+                        
+                    </div>
+                    <hr/>
                     </div><!-- /.post_class -->
                 <?php endwhile; ?>
 
@@ -93,6 +98,9 @@ get_header(); ?>
 
             <?php endif; ?>
         </div>
-
+    </div>
+</div>
+</div>
+<div class="portfolio-divider"></div>
 
     <?php get_footer(); ?>
