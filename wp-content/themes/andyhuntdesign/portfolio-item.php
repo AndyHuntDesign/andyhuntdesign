@@ -25,11 +25,11 @@
             <?php while ( have_posts() ) : the_post(); ?>
             <?php global $post; ?>
             <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );?>
-            <ul class="wow fadeIn"> 
+            <ul> 
                 <li>
                     <a href="<?php the_permalink() ?>">
                         <div class="image">
-                            <div class="thumb" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center!important; background-size:cover!important;"></div>
+                            <div class="thumb wow fadeIn" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center!important; background-size:cover!important;"></div>
                         </div>
                     </a>
                 </li>

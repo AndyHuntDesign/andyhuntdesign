@@ -63,4 +63,4 @@
      
     <?php endwhile; // end of the loop. ?>
 
-    <?php get_footer(); ?>
+    <?php include ('footer-blog.php'); ?>
