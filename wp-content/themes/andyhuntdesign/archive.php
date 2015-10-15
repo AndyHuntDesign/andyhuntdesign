@@ -66,7 +66,12 @@ get_header(); ?>
 
                 <?php while (have_posts()) : the_post(); ?>
                     <div <?php post_class(); ?>>
-                    <div class="search-result-group">    
+                    <div class="search-result-group">  
+                         <?php
+foreach((get_the_category()) as $category) {
+    echo '<img src="/wp-content/themes/andyhuntdesign/images/categories/' . $category->cat_name . '.png" alt="' . $category->cat_name . '" />';
+}
+?> 
                         <a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><h3><?php the_title();?></h3></a>
                         
 
