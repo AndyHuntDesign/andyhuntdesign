@@ -3638,6 +3638,144 @@ html, body {
 
 
 
+@font-face{ 
+  font-family: 'Symbols';
+  src: url('fonts/modernpics.otf');
+}
+/* ------------Home Container ------------ */
+
+.content {position:relative;z-index:400;}
+
+.home-menu{
+    padding:0;
+    width: 608px;
+  height:0px;
+}
+
+@-webkit-keyframes moveFromLeftRotate{
+    from {
+        -webkit-transform: translateX(-100%) rotate(-90deg);
+    }
+    to {
+        -webkit-transform: translateX(0%) rotate(0deg);
+    }
+}
+@-moz-keyframes moveFromLeftRotate{
+    from {
+        -moz-transform: translateX(-100%) rotate(-90deg);
+    }
+    to {
+        -moz-transform: translateX(0%) rotate(0deg);
+    }
+}
+@-ms-keyframes moveFromLeftRotate{
+    from {
+        -ms-transform: translateX(-100%) rotate(-90deg);
+    }
+    to {
+        -ms-transform: translateX(0%) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        -webkit-transform: translateY(100%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+}
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(100%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(100%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+.scrollmenu{
+    width: 100%;
+  height:76px;
+    z-index: 10000;
+  background:rgba(5,43,55,0.9);
+  border-bottom:1px solid rgba(146,196,219,0.1);
+    position:fixed;
+    top: 0;
+    display:none;
+  font-family:ProximaNovaExCn-Thin;
+  text-transform:uppercase;
+  font-style:normal;  
+}
+
+.scrollmenu li:last-child{
+    margin-right: 0px;
+}
+.scrollmenu li a{
+    text-align: left;
+    height: 100%;
+    display: block;
+    color: #ff0000;
+    position: relative;
+}
+.scroll-icon{
+    font-size: 24px;
+    color: #333;
+    text-shadow: 0px 0px 1px #333;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.scroll-home{
+    font-size: 24px;
+    opacity: 0.8;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+
+}
+.scrollmenu li:first-child:hover{
+    /*background-color: #45D677;*/
+}
+.scrollmenu li:nth-child(2):hover{
+    /*background-color: #45D677;*/
+}
+.scrollmenu li:nth-child(3):hover{
+    /*background-color: #45D677;*/
+}
+.scrollmenu li:last-child:hover{
+    /*background-color: #45D677;*/
+}
+
+.scrollmenu .navibar {max-width:1620px; margin:0 auto; text-align:left;}
+.scrollmenu .navibar ul {list-style:none;float:right; padding-top:23px;}
+.scrollmenu .navibar li {float:left;padding:4px;}
+.scrollmenu .navibar li a {font-family:ProximaNovaExCn-Thin;text-transform:uppercase;font-style:normal; color:#fff; font-size:24px; padding:4px;margin:5px 0 12px 16px; text-decoration:none;padding:2px;-o-transition:.5s;-ms-transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;transition:.5s;border-radius: 5px; border: 1px solid rgba(255, 255, 255, .01);}
+.scrollmenu .navibar li a:hover {color:#fff; background:#04202a;text-decoration:none; border: 1px solid #04202a; padding:2px;}
+.scrollmenu .navibar img {max-width:233px; height:auto;}
+}
+
+
+@media screen and (max-width: 1024px) {
+.scrollmenu {display:none;}
+.scrollmenu .navibar {display:none;}
+}
+
+
+
+
+
+
 
 
 

@@ -89,6 +89,19 @@
     </div>
 
 
+    <div class="scrollmenu navi">
+        <div class="navibar">
+            <a href="<?php echo home_url(); ?>"><img src="/wp-content/themes/restimpo/images/logo.png" width="208px" height="72px" alt="Andrew Hunt Design"></a>
+            <ul>
+                <li><a href="<?php echo home_url(); ?>">HOME</a></li>
+                <li><a href="/portfolio">PORTFOLIO</a></li>
+                <li><a href="/contact">SAY HELLO</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
 
 
 
