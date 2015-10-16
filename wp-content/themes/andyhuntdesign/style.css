@@ -1342,6 +1342,17 @@ ul.home-menu {
 
 /* Responsive */
 
+@media (max-width:1600px) {
+.scrollmenu .navibar {
+  max-width:1280px;
+}
+}
+
+@media (max-width:1280px) {
+.scrollmenu .navibar {
+  max-width:100%;
+}
+}
 
 @media (max-width:1024px) {
 .scrollmenu {
