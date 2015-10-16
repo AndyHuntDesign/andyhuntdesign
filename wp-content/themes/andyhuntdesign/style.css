@@ -1248,6 +1248,8 @@ a.brand {
 **************************************/
 
 
+
+
 .scrollmenu{
   width: 100%;
   height:72px;
@@ -1340,17 +1342,6 @@ ul.home-menu {
 
 /* Responsive */
 
-@media (max-width:1600px) {
-.scrollmenu{
-  max-width:1280px;
-}
-}
-
-@media (max-width:1280px) {
-.scrollmenu{
-  max-width:100%;
-}
-}
 
 @media (max-width:1024px) {
 .scrollmenu {
@@ -1360,6 +1351,7 @@ ul.home-menu {
   display:none;
 }
 }
+
 
 
 

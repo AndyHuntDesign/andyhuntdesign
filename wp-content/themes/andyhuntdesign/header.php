@@ -45,7 +45,6 @@
     });
     </script>
 
-
     <?php wp_head(); ?>
 
 
@@ -87,12 +86,12 @@
                         )
                     ); ?>
                     
-            </div>-
+            </div>
         </div>
     </div>
 
 
-    <div class="content">
+    <div class="scroller">
       <ul class="home-menu navi"></ul>
         <div class="scrollmenu navi">
             <div class="navibar">
