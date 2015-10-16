@@ -151,6 +151,29 @@ if(!$("html").hasClass("touch")){
 }
 </script>
 
+<script type="text/javascript">
+         
+              var main_menu_top = $('.home-menu').offset().top;
+                  //Change the number to the height of your menu
+              var menu_bottom = main_menu_top + 2;
+              $(window).scroll(function(){    
+              var scroll_top = $(window).scrollTop(); // our current vertical scroll position from the top
+                  // Check to see if we've scrolled more than the top menu
+              if (scroll_top > menu_bottom) {
+                      //Our scroll is lower than the main menu, check if the top menu is already displayed
+                  if ( ($(".scrollmenu").is(":visible") == false) ) {
+                  //Menu isn't visible, so show it
+                  $('.scrollmenu').fadeIn();
+              } } 
+              else {
+                      //Scroll bar is higher than the bottom of the main menu so make sure the top menu isn't visible
+                  if ( $(".scrollmenu").is(":visible") ) {
+                  $('.scrollmenu').fadeOut();
+              }
+          }
+      });
+  </script>
+
 
         <?php wp_footer(); ?>
     </body>

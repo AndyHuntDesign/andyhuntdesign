@@ -35,7 +35,10 @@
     <link rel="apple-touch-icon-precomposed"
           href="<?php echo get_template_directory_uri();?>/assets/ico/apple-touch-icon-57-precomposed.png">
 
+    
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <script>
     $(window).load(function(){
          $('.preloader').fadeOut();
@@ -89,17 +92,26 @@
     </div>
 
 
-    <div class="scrollmenu navi">
-        <div class="navibar">
-            <a href="<?php echo home_url(); ?>"><img src="/wp-content/themes/restimpo/images/logo.png" width="208px" height="72px" alt="Andrew Hunt Design"></a>
-            <ul>
-                <li><a href="<?php echo home_url(); ?>">HOME</a></li>
-                <li><a href="/portfolio">PORTFOLIO</a></li>
-                <li><a href="/contact">SAY HELLO</a></li>
-            </ul>
+    <div class="content">
+      <ul class="home-menu navi"></ul>
+        <div class="scrollmenu navi">
+            <div class="navibar">
+              <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" /></a>
+                <ul>
+                  <li><?php wp_nav_menu(
+                        array(
+                            'menu' => 'main-menu',
+                            'container_class' => 'nav-collapse collapse',
+                            'menu_class' => 'nav',
+                            'fallback_cb' => '',
+                            'menu_id' => 'main-menu',
+                            'walker' => new Bootstrapwp_Walker_Nav_Menu()
+                        )
+                    ); ?></li>
+                </ul>
+            </div>
         </div>
-
-    </div>
+    </div>  
 
 
 
