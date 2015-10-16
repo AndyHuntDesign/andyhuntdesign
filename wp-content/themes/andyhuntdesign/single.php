@@ -17,7 +17,6 @@
 <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
 <div class="blogpostheader" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center !important; background-size:cover!important;">
     <div class="row">
-
         <div class="col2">
             <div class="categories">
                 <?php
@@ -49,8 +48,7 @@
 
     </div>
 </div>    
-
-  <div class="container blogpostcopy">
+<div class="container blogpostcopy">
     <div class="row content">
         <div class="blogpostwrap">
             <div class="blogpostcontent"> 
@@ -58,9 +56,7 @@
             </div>
         </div>
     </div>
-    </div>
-    <div class="blog-divider"></div>
-     
-    <?php endwhile; // end of the loop. ?>
-
-    <?php include ('footer-blog.php'); ?>
+</div>
+<div class="blog-divider"></div>
+<?php endwhile; // end of the loop. ?>
+<?php include ('footer-blog.php'); ?>
