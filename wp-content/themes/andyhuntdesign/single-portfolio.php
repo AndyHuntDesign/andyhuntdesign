@@ -13,9 +13,12 @@
 
 <?php global $post; ?>
 <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
-<div class="portfolioheader background parallax">
+<div class="portfolioheader" data-img-width="1600" data-img-height="1064" data-diff="100">
    <?php the_block( 'Hero Image' ); ?>
 </div> 
+
+
+
 
 
 
@@ -109,4 +112,4 @@
 
             <?php bootstrapwp_content_nav('nav-below'); ?>
 
-    <?php get_footer(); ?>
+    <?php include ('footer-blog.php'); ?>

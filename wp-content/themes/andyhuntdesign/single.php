@@ -15,7 +15,7 @@
 
 <?php global $post; ?>
 <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
-<div class="blogpostheader" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center !important; background-size:cover!important;">
+<div class="blogpostheader background parallax" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center !important; background-size:cover!important;">
     <div class="row">
         <div class="col2">
             <div class="categories">
