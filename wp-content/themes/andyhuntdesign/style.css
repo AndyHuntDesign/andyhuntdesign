@@ -1589,7 +1589,7 @@ ul.home-menu {
 
 .blogwrapper .image {
   width:50%;
-  height:500px;
+  height:430px;
   float:left;
   position: relative;
 }
@@ -1597,7 +1597,7 @@ ul.home-menu {
 
 .blogwrapper .thumb {
   width:100%;
-  height:500px;
+  height:430px;
   float:left;
   border-bottom:3px solid #111111;
   -webkit-transiton: opacity 0.2s;
@@ -1613,7 +1613,7 @@ ul.home-menu {
 
 .blogwrapper .contents {
   width:50%;
-  height:500px;
+  height:430px;
   float:left;
   border-bottom:3px solid #111111;
 }
@@ -3502,6 +3502,9 @@ header.post-title {
 
 .search-results .span8 {
   background: url(images/portfolio_bg.png);
+}
+.search-results .span8:last-child {
+  padding-bottom:65px;
 }
 
 .search-results .resultrow {
