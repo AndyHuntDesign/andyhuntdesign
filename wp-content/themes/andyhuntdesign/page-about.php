@@ -51,19 +51,16 @@
 
 
 
-<div id="fullpage">
+<div id="fullpage" style="z-index:1000000">
     <div class="section about-black black-top" id="section0">
-        <h1>fullPage.js</h1>
-        <p>CSS3</p>
+        <h2>I wanted to be rock star</h2>
+        <p>After my formative years of busting shapes to the likes of A-Ha and T-Pau, I progressed to being a total grunge head. I still play the banjo today. Rock on!</p>
         <img src="imgs/fullPage.png" alt="fullPage" />
     </div>
     <div class="section about-blue" id="section1">
         <div class="intro">
-            <h1>Speed on mobile</h1>
-            <p>
-          If CSS3 transforms are supported (e.g. on mobile devices) they will be used for animations, usually a good
-          choice if the animation on mobile devices is slow.
-            </p>
+            <h2>I wanted to be a footballer</h2>
+            <p>I had the usual childhood dream of being a professional footballer, but the ambition stopped when the dream was to play for Wolves. I aimed for the stars, so I did</p>
         </div>
     </div>
     <div class="section about-black" id="section2">
@@ -78,7 +75,6 @@
             <p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
         </div>
         <div class="portfolio-divider"></div>
-
     </div>
 </div>
 
