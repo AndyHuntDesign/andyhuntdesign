@@ -52,12 +52,12 @@
 
 
 <div id="fullpage">
-    <div class="section " id="section0">
+    <div class="section about-black black-top" id="section0">
         <h1>fullPage.js</h1>
         <p>CSS3</p>
         <img src="imgs/fullPage.png" alt="fullPage" />
     </div>
-    <div class="section" id="section1">
+    <div class="section about-blue" id="section1">
         <div class="intro">
             <h1>Speed on mobile</h1>
             <p>
@@ -66,22 +66,21 @@
             </p>
         </div>
     </div>
-    <div class="section" id="section2">
+    <div class="section about-black" id="section2">
         <div class="intro">
             <h1>No CSS3? No problem!</h1>
             <p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
         </div>
     </div>
+    <div class="section" id="section3">
+        <div class="intro">
+            <h1>No CSS3? No problem!</h1>
+            <p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
+        </div>
+        <div class="portfolio-divider"></div>
+
+    </div>
 </div>
 
-
-
-
-
-
-
-
-
-<div class="portfolio-divider"></div>
 
 <?php get_footer(); ?>
