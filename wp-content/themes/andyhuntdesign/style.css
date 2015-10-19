@@ -3215,12 +3215,60 @@ textarea, input {
 }
 
 
-#about-wrap .black {
+.about-black {
   width:100%;
-  min-height:100px;
-  background: url(images/portfolio_bg.png);
+  min-height:400px;
+  background: url(images/portfolio_bg.png)!important;
+  overflow: hidden;
+}
+
+.black-top {
   margin-top:-20px;
 }
+
+.about-blue {
+  width:100%;
+  min-height:400px;
+  background: url(images/bg.png)!important;
+  overflow: hidden;
+}
+
+.block-row {
+  max-width:1600px;
+  margin:0 auto;
+  padding:60px 0;
+}
+
+.block-image-left {
+  float:left;
+  width:70%;
+}
+
+.block-image-right {
+  float:right; 
+  width:70%;
+}
+
+.block-copy-left {
+  float:left;
+  width:30%;
+}
+
+.block-copy-right {
+  float:right;
+  width:30%;
+}
+
+.about-black h2, .about-blue h2 {
+  color:#ffffff;
+  font-size:32px!important;
+}
+
+.about-black p, .about-blue p {
+  color:#ffffff;
+}
+
+
 
 
 
