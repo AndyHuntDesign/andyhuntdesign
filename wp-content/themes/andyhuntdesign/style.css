@@ -3151,6 +3151,7 @@ textarea, input {
   position:relative;
   background: url(images/bg.png);
   min-height:100px;
+  padding-bottom:10px
 }
 
 .aboutwrapper {
@@ -3252,11 +3253,13 @@ textarea, input {
 .block-copy-left {
   float:left;
   width:30%;
+  text-align:left;
 }
 
 .block-copy-right {
   float:right;
   width:30%;
+  text-align:left;
 }
 
 .about-black h2, .about-blue h2 {
@@ -3266,6 +3269,12 @@ textarea, input {
 
 .about-black p, .about-blue p {
   color:#ffffff;
+  font-size:16px !important;
+}
+
+.about-black img {
+  max-height:400px!important;
+  width:auto!important;
 }
 
 
