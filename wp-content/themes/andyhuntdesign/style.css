@@ -3235,7 +3235,7 @@ textarea, input {
 }
 
 .block-row {
-  max-width:1600px;
+  max-width:1200px;
   margin:0 auto;
   padding:60px 0;
 }
@@ -3243,11 +3243,13 @@ textarea, input {
 .block-image-left {
   float:left;
   width:70%;
+  text-align:right;
 }
 
 .block-image-right {
   float:right; 
   width:70%;
+  text-align:left;
 }
 
 .block-copy-left {
@@ -3273,8 +3275,8 @@ textarea, input {
 }
 
 .about-black img {
-  max-height:400px!important;
-  width:auto!important;
+  max-width:600px!important;
+  height:auto!important;
 }
 
 

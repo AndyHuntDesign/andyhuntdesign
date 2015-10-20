@@ -25,6 +25,7 @@
     <div class="section about-black black-top" id="section0">
         <div class="block-row ">
             <div class="block-image-left">
+                <img src="/wp-content/themes/andyhuntdesign/images/about-football.png">
             </div>
             <div class="block-copy-right">
                 <h2>I wanted to be rock star</h2>
@@ -46,12 +47,19 @@
         </div>
 
     </div>
-    <div class="section about-black" id="section2" style="margin-top:-330px">
+    <div class="section about-black" id="section2" style="margin-top:-330px; pointer-events: none">
         <div class="intro">
             <h1>There is no fold</h1>
             <p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
         </div>
     </div>
+    <div class="section" id="section3">
+        <div class="intro">
+            <div class="portfolio-item-divider" style="position:absolute;top:0"></div>
+        </div>
+    </div>
+    
+
 </div>
 
 
