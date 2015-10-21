@@ -20,7 +20,7 @@
 </div>
 
 
-<div id="fullpage" style="z-index:1000000">
+<div id="fullpage" style="z-index:100000">
     <div class="portfolio-top-divider"></div>
     <div class="section about-black black-top" id="section0">
         <div class="block-row ">
@@ -47,20 +47,39 @@
         </div>
 
     </div>
-    <div class="section about-black" id="section2" style="margin-top:-330px; pointer-events: none">
+    <div class="section about-black" id="section2" style="margin-top:-330px;">
         <div class="intro">
             <h1>There is no fold</h1>
             <p>If CSS3 is not available, animations will fall back to jQuery animate.</p>
         </div>
     </div>
-    <div class="section" id="section3">
+    <div class="section" id="section3" style="pointer-events:none;">
         <div class="intro">
             <div class="portfolio-item-divider" style="position:absolute;top:0"></div>
         </div>
     </div>
-    
 
 </div>
+<div style="position:absolute; float:left; z-index:-100000; height:100%; width:100%; background:#111111; bottom:0"></div>
+
+<footer style="position:absolute; z-index:1; bottom:0;">
+     <div class="container">
+        <?php
+        if (function_exists('dynamic_sidebar')) {
+            dynamic_sidebar("footer-content");
+        } ?>
+        <ul>
+            <li class="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/footer_facebook.png" /></li>
+            <li class="twitter"><img src="<?php bloginfo('template_directory'); ?>/images/footer_twitter.png" /></li>
+            <li class="linkedin"><img src="<?php bloginfo('template_directory'); ?>/images/footer_linkedin.png" /></li>
+            <li class="youtube"><img src="<?php bloginfo('template_directory'); ?>/images/footer_youtube.png" /></li>
+            <li class="behance"><img src="<?php bloginfo('template_directory'); ?>/images/footer_behance.png" /></li>
+            <li class="dribbble"><img src="<?php bloginfo('template_directory'); ?>/images/footer_dribbble.png" /></li>
+            <li class="instagram"><img src="<?php bloginfo('template_directory'); ?>/images/footer_instagram.png" /></li>
+        </ul>
+        <p>&copy; Copyright 2000-2015</p>
+    </div><!-- /container -->
+</footer>
 
 
 <?php get_footer(); ?>
