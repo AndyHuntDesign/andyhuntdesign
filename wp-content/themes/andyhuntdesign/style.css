@@ -3564,6 +3564,24 @@ header.post-title {
   width:100%;
 }
 
+.search-results .span8 {
+  background: url(images/portfolio_bg.png);
+}
+
+.no-results {
+  width:100%;
+  text-align:center;
+  margin-top:-20px;
+  padding-top:80px;
+  padding-bottom:60px;
+  overflow:hidden;
+  background: url(images/portfolio_bg.png);
+}
+
+.no-results p.lead{
+  color:#ffffff!important;
+  font-size:16px!important;
+}
 
 
 /**************************************
@@ -3826,7 +3844,7 @@ html, body {
 }
 .content-b {
   display:table-cell;
-    position:relative;
+  position:relative;
   vertical-align:middle;
   text-align:center;
 }

@@ -62,12 +62,13 @@ get_header(); ?>
                             <h1><?php _e('I TRIED, BUT FOUND NOTHING', 'bootstrapwp'); ?></h1>
                         </header>
                         <div class="portfolio-top-divider"></div>
-                        <p class="lead">
-                            <?php _e(
-                                'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps you should try again with a different search term.',
-                                'bootstrapwp'); ?>
-                        </p>
-                        
+                        <div class="no-results">
+                            <p class="lead">
+                                <?php _e(
+                                    'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps you should try again with a different search term.',
+                                    'bootstrapwp'); ?>
+                            </p>
+                        </div>
              <?php endif;?>
              <?php bootstrapwp_content_nav('nav-below'); ?>
             </div>
