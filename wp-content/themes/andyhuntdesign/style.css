@@ -3422,12 +3422,12 @@ footer li:last-child {
 
 footer ul li{
   margin-right:5px!important;
+  padding: 6px 8px 6px 8px!important;
 }
 footer ul li img{
   max-width:15px!important;
 }
 }
-
 
 
 
