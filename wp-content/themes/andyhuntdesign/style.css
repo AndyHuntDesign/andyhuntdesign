@@ -1337,7 +1337,7 @@ ul.home-menu {
 }
 
 .scrollmenu form{
-  display:none!important;
+  /*display:none!important;*/
 }
 
 /* Responsive */
@@ -3576,12 +3576,18 @@ header.post-title {
   padding-top:80px;
   padding-bottom:60px;
   overflow:hidden;
+  min-height:280px;
   background: url(images/portfolio_bg.png);
+}
+
+.no-results img{
+  max-width:100%!important;
+  height:auto!important;
 }
 
 .no-results p.lead{
   color:#ffffff!important;
-  font-size:16px!important;
+  font-size:24px!important;
 }
 
 

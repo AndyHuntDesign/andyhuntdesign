@@ -59,15 +59,16 @@ get_header(); ?>
             	<div class="row content">
                     <div class="span8 search-entry-result">
                         <header class="post-title">
-                            <h1><?php _e('I TRIED, BUT FOUND NOTHING', 'bootstrapwp'); ?></h1>
+                            <h1><?php _e('MEH. NOTHING', 'bootstrapwp'); ?></h1>
                         </header>
                         <div class="portfolio-top-divider"></div>
                         <div class="no-results">
                             <p class="lead">
                                 <?php _e(
-                                    'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps you should try again with a different search term.',
+                                    'Your quest for the grail has been fruitless.',
                                     'bootstrapwp'); ?>
                             </p>
+
                         </div>
              <?php endif;?>
              <?php bootstrapwp_content_nav('nav-below'); ?>
