@@ -3811,6 +3811,95 @@ section {
 
 
 
+/**************************************
+**************** SHARE ****************
+**************************************/
+
+
+.share {
+  width:100%;
+  z-index:100000;
+  position:relative;
+  padding: 60px 0;
+  overflow:hidden;
+  text-align:center;
+  background: url(images/portfolio_bg.png);
+  border-top:1px;
+  border-top:1px solid rgba(255,255,255,0.15);
+}
+
+.share h4 {
+  font-size:35px;
+  font-weight:300;
+  color:#ffffff;
+}
+
+.share p {
+  color:#ffffff;
+  font-size:14px;
+}
+
+.share .sharewrap {
+  width:162px;
+  margin:0 auto;
+  clear:both;
+}
+
+.share .sharecopy {
+  width:100%;
+  padding-top:30px;
+  margin:0 auto;
+  text-align:center;
+  clear:both;
+}
+
+
+.share .share-twitter {
+  /*background: url(images/share-twitter.png);*/
+  background:#A7C7D7;
+  border-top-left-radius:80px;
+  border-bottom-left-radius:80px;
+  height:102px;
+  width:81px;
+  padding-top:60px;
+  overflow:hidden;
+  float:left;
+  text-align:center;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.share .share-twitter:hover {
+  background:#4099FF;
+}
+
+.share .share-facebook {
+  /*background: url(images/share-facebook.png);*/
+  background:#6DA2BA;
+  border-top-right-radius:80px;
+  border-bottom-right-radius:80px;
+  height:105px;
+  width:81px;
+  padding-top:57px;
+  overflow:hidden;
+  float:left;
+  text-align:center;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+} 
+
+.share .share-facebook:hover {
+  background:#3b5998;
+}
+
+
+
 
 
 

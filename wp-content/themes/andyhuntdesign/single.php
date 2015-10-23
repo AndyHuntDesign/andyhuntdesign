@@ -57,6 +57,21 @@
         </div>
     </div>
 </div>
+<div class="share">
+    <div class="sharewrap">
+        <div class="share-twitter">
+            <a href="http://twitter.com/share?text=<?php echo urlencode(the_title()); ?>&url=<?php echo urlencode(the_permalink()); ?>&via=twitter&related=<?php echo urlencode("coderplus:Wordpress Tips, jQuery and more"); ?>" title="Share on Twitter" rel="nofollow" target="_blank"><img src="/wp-content/themes/andyhuntdesign/images/share_twitter.png"></a>
+        </div>
+        <div class="share-facebook">
+            <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>" target="blank"><img src="/wp-content/themes/andyhuntdesign/images/share_facebook.png"></a>
+        </div>
+    </div>
+    <div class="sharecopy">
+        <h4>Do you like this?</h4>
+        <p>Share the love</p>
+    </div>
+</div>
+
 <div class="blog-divider"></div>
 <?php endwhile; // end of the loop. ?>
 <?php include ('footer-blog.php'); ?>
