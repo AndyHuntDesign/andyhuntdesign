@@ -15,13 +15,13 @@
                 } ?>
 
                 <ul>
-                    <li class="facebook"><img src="<?php bloginfo('template_directory'); ?>/images/footer_facebook.png" /></li>
-                    <li class="twitter"><img src="<?php bloginfo('template_directory'); ?>/images/footer_twitter.png" /></li>
-                    <li class="linkedin"><img src="<?php bloginfo('template_directory'); ?>/images/footer_linkedin.png" /></li>
-                    <li class="youtube"><img src="<?php bloginfo('template_directory'); ?>/images/footer_youtube.png" /></li>
-                    <li class="behance"><img src="<?php bloginfo('template_directory'); ?>/images/footer_behance.png" /></li>
-                    <li class="dribbble"><img src="<?php bloginfo('template_directory'); ?>/images/footer_dribbble.png" /></li>
-                    <li class="instagram"><img src="<?php bloginfo('template_directory'); ?>/images/footer_instagram.png" /></li>
+                    <li class="facebook"><a href="https://www.facebook.com/andyhunt78" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_facebook.png" /></a></li>
+                    <li class="twitter"><a href="https://twitter.com/andyhuntdesign" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_twitter.png" /></a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/pub/andy-hunt/37/287/b01" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_linkedin.png" /></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/user/ThinkCreateSee" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_youtube.png" /></a></li>
+                    <li class="behance"><a href="https://www.behance.net/andyhunt" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_behance.png" /></a></li>
+                    <li class="dribbble"><a href="https://dribbble.com/think_createsee" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_dribbble.png" /></a></li>
+                    <li class="instagram"><a href="https://instagram.com/andy_hunt_" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_instagram.png" /></a></li>
                 </ul>
 
                 <p>&copy; Copyright 2000-2015</p>

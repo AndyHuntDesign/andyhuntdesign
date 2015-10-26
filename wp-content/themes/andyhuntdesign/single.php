@@ -57,6 +57,50 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="related">
+    <?php $orig_post = $post;
+    global $post;
+    $categories = get_the_category($post->ID);
+    if ($categories) {
+    $category_ids = array();
+    foreach($categories as $individual_category) $category_ids[] = $individual_category->term_id;
+    $args=array(
+    'category__in' => $category_ids,
+    'post__not_in' => array($post->ID),
+    'posts_per_page'=> 3, // Number of related posts that will be shown.
+    'caller_get_posts'=>1
+    );
+    $my_query = new wp_query( $args );
+    if( $my_query->have_posts() ) {
+    echo '<div id="related_posts"><h4>Related Posts</h4><p>Have a butchers</p><ul>';
+    while( $my_query->have_posts() ) {
+    $my_query->the_post();?>
+    <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );?>
+    <li><div class="relatedthumb" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center!important; background-size:cover!important;"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"></a></div>
+    <div class="relatedcontent">
+    <span class="time"><?php the_time('M j, Y') ?></span>
+    <h5><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h5>
+    <hr>
+    <a class="more" href="<? the_permalink()?>">Read more</a>
+    </div>
+    </li>
+    <?
+    }
+    echo '</ul></div>';
+    }
+    }
+    $post = $orig_post;
+    wp_reset_query(); ?>
+</div>
+
+
+
+
+
+
 <div class="share">
     <div class="sharewrap">
         <div class="share-twitter">

@@ -98,9 +98,9 @@ get_header(); ?>
                 <p>I draw pictures, I blog on occassions and I tweet. Have a little look</p>
             </div>
             <div class="botrow">
-                <div class="col01 wow fadeInUp delay01"></div>
-                <div class="col02 wow fadeInUp delay02"></div>
-                <div class="col03 wow fadeInUp delay03"></div>
+                <div class="col01 wow fadeInUp delay01"><a href="https://twitter.com/andyhuntdesign" target="_blank"></a></div>
+                <div class="col02 wow fadeInUp delay02"><a href="/blog" target="_blank"></a></div>
+                <div class="col03 wow fadeInUp delay03"><a href="https://twitter.com/andyhuntdesign" target="_blank"></a></div>
             </div>
         </div>
     </div>

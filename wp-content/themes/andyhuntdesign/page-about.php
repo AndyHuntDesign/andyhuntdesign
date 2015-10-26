@@ -84,7 +84,6 @@
     <div class="section" id="section3" style="pointer-events:none;">
         <div class="intro">
             <div class="portfolio-item-divider" style="position:absolute;top:0"></div>
-            - FIN -
         </div>
     </div>
 
@@ -101,8 +100,8 @@
 
 
 
-<div style="position:absolute; float:left; z-index:-100000; height:100%; width:100%; background:#111111; bottom:0"></div>
 
 
 
-<?php get_footer(); ?>
+
+<?php include ('footer-about.php'); ?>

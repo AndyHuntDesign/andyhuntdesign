@@ -283,6 +283,10 @@ if (!function_exists('bootstrapwp_posted_on')) :
 endif;
 
 
+
+
+
+
 /**
  * Adds custom classes to the array of body classes.
  *
@@ -459,6 +463,8 @@ function add_search_box( $items, $args ) {
     $items .= '<li>' . get_search_form( false ) . '</li>';
     return $items;
 }
+
+
 
 
 

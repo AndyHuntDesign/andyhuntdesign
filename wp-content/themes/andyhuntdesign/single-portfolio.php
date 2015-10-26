@@ -14,6 +14,24 @@
 <?php global $post; ?>
 <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
 <div class="portfolioheader" data-img-width="1600" data-img-height="1064" data-diff="100">
+    <div class="potfolioitemintro"> 
+        <h2><?php echo get_the_title( $ID ); ?><h2>
+        <ul>
+            <li class="portfolioitemcat">
+                <?php
+                    $categories = get_the_category();
+                    $separator = '   |   ';
+                    $output = '';
+                        if($categories){
+                            foreach($categories as $category) {
+                                $output .= '<a class="cat">'.$category->cat_name. '</a>'.$separator;
+                            }
+                            echo trim($output, $separator);
+                            }
+                ?> 
+    </li>
+</ul>
+    </div>
    <?php the_block( 'Hero Image' ); ?>
 </div> 
 
@@ -42,7 +60,7 @@
    </div>
 </div>  
 
-<div class="container portfoliocopy black slider-mob">
+<div class="container portfoliocopy black slider-mob pre-sliders">
     <div class="row content">
         <div class="portfoliocontent">     
             <?php the_content(); ?>
@@ -89,7 +107,7 @@
     <?php the_block( 'Testimonials' ); ?>
 </div>
 
-<div class="container portfoliocopy screens slider-mob">
+<div class="container portfoliocopy screens slider-mob responsive">
     <div class="row content">
         <div class="portfoliocontent">     
             <div class="row">
@@ -107,7 +125,7 @@
 <div class="share">
     <div class="sharewrap">
         <div class="share-twitter">
-            <a href="http://twitter.com/share?text=<?php echo urlencode(the_title()); ?>&url=<?php echo urlencode(the_permalink()); ?>&via=twitter&related=<?php echo urlencode("coderplus:Wordpress Tips, jQuery and more"); ?>" title="Share on Twitter" rel="nofollow" target="_blank"><img src="/wp-content/themes/andyhuntdesign/images/share_twitter.png"></a>
+            <a href="http://twitter.com/share?text=<?php echo urlencode(the_title()); ?>&url=<?php echo urlencode(the_permalink()); ?>&via=andyhuntdesign&related=<?php echo urlencode("coderplus:Wordpress Tips, jQuery and more"); ?>" title="Share on Twitter" rel="nofollow" target="_blank"><img src="/wp-content/themes/andyhuntdesign/images/share_twitter.png"></a>
         </div>
         <div class="share-facebook">
             <a href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>" target="blank"><img src="/wp-content/themes/andyhuntdesign/images/share_facebook.png"></a>
