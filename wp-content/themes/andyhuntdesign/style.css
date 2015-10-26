@@ -1093,7 +1093,7 @@ a.brand {
   background-image: none!important
 }
 .navbar-relative-top .navbar-inner {
-    padding: 5px 10px 0px!important;
+    padding: 0px!important;
 }
 }
 
