@@ -981,6 +981,7 @@ a.brand {
 
 .navbar {
   background: url(images/bg.png)!important;
+  margin-bottom:0!important;
 }
 
 .navbar-inverse .btn-navbar {
