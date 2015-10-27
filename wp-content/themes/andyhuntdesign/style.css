@@ -444,8 +444,10 @@ a.brand {
 }
 
 
+
+
 /* Responsive */
-@media only screen and (max-width: 1900px)  {
+@media only screen and (max-width: 1920px)  {
 .home-slider {;
   height:620px;
 }
