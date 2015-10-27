@@ -446,7 +446,7 @@ a.brand {
   margin-top:-280px;
   z-index:4000;
   position: relative;
-  text-indent: -1000;
+  text-indent: -1000px;
 }
 
 .home-slider .owl-next{
@@ -457,6 +457,7 @@ a.brand {
   margin-top:-280px;
   z-index:4000;
   position: relative;
+  text-indent: 1000px;
 }
 
 .home-slider img {
@@ -675,6 +676,10 @@ a.brand {
  cursor: pointer;
 }
 
+.more-info .mob-view {
+  display:none;
+}
+
 
 
 /* Responsive */
@@ -765,7 +770,7 @@ a.brand {
 }  
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 700px)  {
 .more-info .col01 {
   width:100%;
   background-size:28s0px;
@@ -798,6 +803,30 @@ a.brand {
   width:100%;
   background-size:280px;
 }  
+
+.more-info .desktop-view {
+  display:none;
+}
+
+.more-info .mob-view {
+  display:block;
+}
+
+.more-info .mob-view ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.more-info .mob-view li{
+  padding:0;
+  margin:0;
+}
+
+.more-info .mob-view img{
+   max-width: 280px;
+   height:auto;
+}
 }
 
 
@@ -1098,6 +1127,7 @@ a.brand {
   position:relative;
   z-index:1000000000000;
   border:0!important;
+  box-shadow: none!important
 }
 
 .navbar a {
@@ -1232,7 +1262,7 @@ a.brand {
 }
 
 .navbar .nav > li {
-  margin-right: 25px;
+  margin-right: 8px;
 }
 .navbar .nav > li > a {
   float: none;
@@ -1956,7 +1986,7 @@ ul.home-menu {
   width:100%;
   background:#BBC2B2;
   max-height:650px;
-  margin-top: -73px;
+  margin-top: -80px;
 }
 
 .blogpostheader .row {
@@ -3482,7 +3512,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding-top: 300px;
-  padding-bottom:60px;
+  /*padding-bottom:60px;*/
 
 }
 
@@ -3598,6 +3628,28 @@ footer .widget ul li a:hover{
 
 footer .menu li:last-child {
   display:none!important;
+}
+
+footer #arrow {
+  width:130px; 
+  height:46px;
+  background:url(images/arrow_top.png); 
+  margin:40px auto 0 auto; 
+  text-align:center; 
+}
+
+footer #arrow:hover{ 
+  background-position:0 -46px;
+}
+
+footer .totop {
+  width:100%; 
+  height:10px; 
+  background: #fff; 
+  opacity:.04; 
+  overflow:hidden; 
+  position:relative; 
+  bottom: 0px;
 }
 
 

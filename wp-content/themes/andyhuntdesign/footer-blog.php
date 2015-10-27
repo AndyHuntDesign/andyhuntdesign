@@ -26,6 +26,8 @@
 
                 <p>&copy; Copyright 2000-2015</p>
             </div><!-- /container -->
+            <div id="arrow"><a href="#top"><img src="<?php bloginfo('template_directory'); ?>/images/arrow_top_over.png"  alt="Back to the top"/></a></div>
+            <div class="totop"></div>
         </footer>
         <script src="<?php echo get_template_directory_uri();?>/js/wow.js"></script>
           <script>
