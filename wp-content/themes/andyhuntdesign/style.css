@@ -888,8 +888,8 @@ a.brand {
   z-index: 200;
   width:100%;
   background: url(images/footer_curve.png) repeat-x;
-  height:29px;
-  margin-bottom:400px;
+  height:400px;
+  pointer-events:none;
 }
 
 .case-study .featurebox {
@@ -1530,8 +1530,8 @@ ul.home-menu {
   z-index: 200;
   width:100%;
   background: url(images/footer_curve.png) repeat-x;
-  height:29px;
-  margin-bottom:400px;
+  height:400px;
+  pointer-events:none;
 }
 
 .blogwrapper a {
@@ -2612,8 +2612,8 @@ textarea, input {
   z-index: 200;
   width:100%;
   background: url(images/footer_curve.png) repeat-x;
-  height:29px;
-  margin-bottom:400px;
+  height:400px;
+  pointer-events:none;
 }
 
 .portfoliowrapper a {
@@ -3693,8 +3693,8 @@ header.post-title {
   z-index: 200;
   width:100%;
   background: url(images/footer_curve.png) repeat-x;
-  height:29px;
-  margin-bottom:400px;
+  height:400px;
+  pointer-events:none;
 }
 
 
