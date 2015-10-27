@@ -27,7 +27,7 @@
                 <li>
                     <a href="<?php the_permalink() ?>">
                         <div class="image">
-                            <div class="thumb" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center!important; background-size:cover!important;"></div>
+                            <div class="thumb wow fadeIn" style="background: url(<?php echo $src[0]; ?> ) no-repeat center center!important; background-size:cover!important;"></div>
                         </div>
                     </a>
                 </li>

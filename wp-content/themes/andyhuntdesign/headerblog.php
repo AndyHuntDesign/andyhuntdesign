@@ -65,27 +65,33 @@
     </div>
 </div>
 
-    <div class="navbar navbar-inverse navbar-relative-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                    <?php wp_nav_menu(
-                        array(
-                            'menu' => 'main-menu',
-                            'container_class' => 'nav-collapse collapse',
-                            'menu_class' => 'nav',
-                            'fallback_cb' => '',
-                            'menu_id' => 'main-menu',
-                            'walker' => new Bootstrapwp_Walker_Nav_Menu()
-                        )
-                    ); ?>
-            </div>
-        </div>
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+          <?php wp_nav_menu(
+            array(
+              'menu' => 'main-menu',
+              'container_class' => 'nav-collapse collapse',
+              'menu_class' => 'nav',
+              'fallback_cb' => '',
+              'menu_id' => 'main-menu',
+              'walker' => new Bootstrapwp_Walker_Nav_Menu()
+            )
+          ); ?>
+
+          <!-- Everything you want hidden at 940px or less, place within here -->
+          <div class="nav-collapse collapse">
+          <!-- .nav, .navbar-search, .navbar-form, etc -->
+          </div>
+      </div>
     </div>
+</div>
 
 
 
