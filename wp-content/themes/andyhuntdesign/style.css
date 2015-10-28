@@ -386,6 +386,9 @@ a.brand {
   background: url(/wp-content/themes/andyhuntdesign/images/slider/back_beam.png) no-repeat bottom center;
 }
 
+#slider-divider .mob-view {
+  display:none;
+}
 
 /* Responsive */
 
@@ -408,6 +411,65 @@ a.brand {
   padding-top:24px;
   margin-top: -69px;
   background: url(images/slider_divider_bg_sm.png) repeat-x;
+}
+}
+
+@media only screen and (max-width: 700px)  {
+#slider-divider .mob-view {
+  display:inline-block;
+  text-align:center;
+  width:100%;
+}
+
+#slider-divider .mob-view p {
+  display:block;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 30px;
+  text-align:center;
+  color: #e3d786;
+  margin:0;
+  padding:0;
+}
+
+#slider-divider .mob-view ul {
+  list-style: none;
+  width: 100%;
+  margin: 0 auto;
+  display:inline-block;
+}
+
+#slider-divider .mob-view li {
+  display: inline-block;
+  margin: 0;
+  width:90px;
+  float: none;
+}
+
+#slider-divider li:first-child {
+  color: #e3d786;
+  display:inline-block;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+#slider-divider .mob-view li img{
+  max-width:80%;
+  height:auto;
+}
+}
+
+@media only screen and (max-width: 400px)  {
+#slider-divider .mob-view li {
+  display: inline-block;
+  margin: 0;
+  width:80px;
+  float: none;
+}
+
+#slider-divider .mob-view li img{
+  max-width:100%;
+  height:auto;
 }
 }
 
@@ -1039,6 +1101,13 @@ a.brand {
 
 .navbar {
   background: url(images/bg.png)!important;
+  margin-bottom:0!important;
+  position:relative;
+  z-index:100;
+}
+
+.single-portfolio .navbar, .single-post .navbar{
+  background: none!important;
   margin-bottom:0!important;
   position:relative;
   z-index:100;
@@ -2292,6 +2361,11 @@ blockquote p {
     font-size:18px!important;
     line-height: 24px;
     padding:30px 0;
+}
+
+.blogpostcopy .blogpostwrap strong{
+  font-size:16px;
+  line-height:24px;
 }
 }
 

@@ -29,10 +29,10 @@
                             echo trim($output, $separator);
                             }
                 ?> 
-    </li>
-</ul>
+            </li>
+        </ul>
     </div>
-   <?php the_block( 'Hero Image' ); ?>
+    <?php the_block( 'Hero Image' ); ?>
 </div> 
 
 

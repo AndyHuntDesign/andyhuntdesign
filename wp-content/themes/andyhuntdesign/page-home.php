@@ -86,6 +86,13 @@ get_header(); ?>
             <li><img src="<?php echo get_template_directory_uri();?>/images/l_olympics.png"></li>
             <li><img src="<?php echo get_template_directory_uri();?>/images/l_princestrust.png"></li>
         </ul>
+        <ul class="mob-view">
+            <p>famous faces i've helped</p>
+            <li><img src="<?php echo get_template_directory_uri();?>/images/l_boots.png"></li>
+            <li><img src="<?php echo get_template_directory_uri();?>/images/l_samsung.png"></li>
+            <li><img src="<?php echo get_template_directory_uri();?>/images/l_olympics.png"></li>
+            <li><img src="<?php echo get_template_directory_uri();?>/images/l_princestrust.png"></li>
+        </ul>
     </div>
 
     <div class="more-info">
