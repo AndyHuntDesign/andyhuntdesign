@@ -175,7 +175,7 @@ img {
   max-width:1600px;
   margin:0 auto;
   position:relative;
-  z-index:10000000000000000;
+  z-index:1;
 }
 
 a.brand {
@@ -504,11 +504,11 @@ a.brand {
   background-size: 110%;
 }
 .home-slider {
-  height:550px;
+  height:480px;
 }
 .home-slider img {
-  max-width:280px;
-  margin:0 auto;
+  max-width:240px;
+  margin:-13px auto 0 auto;
 }
 .home-slider .owl-prev{
   display:none!important;
@@ -987,19 +987,19 @@ a.brand {
 }
 
 .case-study .col1 {
-  width:90%;
+  width:50%;
   padding:0 5%;
   padding-right:100;
-  text-align:center;
-  float:right;
+  text-align:left;
+  float:left;
   overflow: hidden;
 } 
 
 .case-study .col2 {
-  width:100%;
-  text-align:center;
-  float:left;
-  padding-top:50px;
+  width:40%;
+  text-align:left;
+  float:right;
+  padding-top:10px;
   padding-right:0%;
   padding-left: 0;
 }
@@ -1010,6 +1010,14 @@ a.brand {
 
 
 @media only screen and (max-width: 768px)  {
+.case-study .col1 {
+  width:90%;
+  padding:0 5%;
+  padding-right:100;
+  text-align:center;
+  float:right;
+  overflow: hidden;
+} 
 .case-study .col2 {
   width:92%;
   text-align:center;
@@ -1032,6 +1040,8 @@ a.brand {
 .navbar {
   background: url(images/bg.png)!important;
   margin-bottom:0!important;
+  position:relative;
+  z-index:100;
 }
 
 .navbar-inverse .btn-navbar {
@@ -1172,6 +1182,9 @@ a.brand {
 }
 
 @media only screen and (max-width: 1024px)  {
+.navbar {
+  background:none!important;
+}
 .navbar-inner {
   max-width:100%;
   margin-top:-45px;
@@ -2088,6 +2101,11 @@ ul.home-menu {
 .blogpostcopy .blogpostwrap {
   width:1600px;
   margin:0 auto;
+}
+
+.blogpostcopy .blogpostwrap strong{
+  font-size:21px;
+  line-height:34px;
 }
 
 .blogpostcopy .row .blogpostcontent {

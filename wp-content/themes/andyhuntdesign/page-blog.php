@@ -10,20 +10,22 @@
 
 <?php include ('header.php'); ?>
 
-<div id="blog-wrap">
+<div id="portfolio-wrap">
+    
 
-    <div class="blogwrapper">
+     
+    <div class="portfoliowrapper">
         <div class="row">
             <h1>MY NAME IS ANDY <span class="mob-none">AND I'M A DIGITAL DESIGNER</span></h1>
-            <span class="italic">and</span><span class="sub">&nbsp;these are my ramblings</span>
+            <span class="italic">and</span><span class="sub">&nbsp;here is my work</span>
         </div>
-        <div class="blog-top-divider"></div>
-        <div class="blogcontent">
+        <div class="portfolio-top-divider"></div>
+        <div class="portfoliocontent">
             <?php  $wp_query = new WP_Query(array('post_type' => 'post', 'posts_per_page' => 4));  ?>
             <?php while ( have_posts() ) : the_post(); ?>
             <?php global $post; ?>
             <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );?>
-            <ul class="wow fadeIn"> 
+            <ul> 
                 <li>
                     <a href="<?php the_permalink() ?>">
                         <div class="image">
@@ -42,14 +44,14 @@
                             $output = '';
                             if($categories){
                                 foreach($categories as $category) {
-                                    $output .= '<a class="cat" href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name. '</a>'.$separator;
+                                    $output .= '<a class="cat" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name. '</a>'.$separator;
                                     }
                                     echo trim($output, $separator);
                             }
                             ?>
                         </li>
                         <li><?php the_excerpt(); ?></li>
-                        <li><a class="project" href="<?php the_permalink() ?>">Read more</a>&nbsp;<img src="<?php echo get_template_directory_uri();?>/images/arrowlink.png" width="12" height="9"></li>
+                        <li><a class="project" href="<?php the_permalink() ?>">View project</a>&nbsp;<img src="<?php echo get_template_directory_uri();?>/images/arrowlink.png" width="12" height="9"></li>
                     </ul>
                 </div>
             </div>
@@ -57,5 +59,5 @@
         </div>
     </div>
 </div>
-<div class="blog-divider"></div>
+<div class="portfolio-divider"></div>
 <?php get_footer(); ?>
