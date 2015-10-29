@@ -16,14 +16,14 @@ get_header(); ?>
           <div id="demo">
             <div class="home-slider-container">
               <div id="owl-demo" class="owl-carousel">
-                <div class="item">
+                 <div class="item">
                   <div class="heading">
-                    <span class="italic">and</span> <span class="sub">I totally rock</span>
+                    <span class="italic">and</span> <span class="sub">I'm a design for web</span> 
                   </div>
                   <div class="avatar">
-                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_rock.png" alt="Rocking">
+                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_illustration.png" alt="Geek">
                   </div>
-                </div> 
+                </div>  
                 <div class="item">
                   <div class="heading">
                     <span class="italic">and</span> <span class="sub">I'm a front end developer</span> 
@@ -34,12 +34,12 @@ get_header(); ?>
                 </div> 
                 <div class="item">
                   <div class="heading">
-                    <span class="italic">and</span> <span class="sub">I do illustrations</span> 
+                    <span class="italic">and</span> <span class="sub">I totally rock</span>
                   </div>
                   <div class="avatar">
-                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_illustration.png" alt="Geek">
+                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_rock.png" alt="Rocking">
                   </div>
-                </div>           
+                </div> 
               </div>
             </div>
           </div>

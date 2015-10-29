@@ -21,7 +21,7 @@
         </div>
         <div class="portfolio-top-divider"></div>
         <div class="portfoliocontent">
-            <?php  $wp_query = new WP_Query(array('post_type' => 'portfolio', 'posts_per_page' => 4));  ?>
+            <?php  $wp_query = new WP_Query(array('post_type' => 'portfolio', 'posts_per_page' => 20));  ?>
             <?php while ( have_posts() ) : the_post(); ?>
             <?php global $post; ?>
             <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' );?>
