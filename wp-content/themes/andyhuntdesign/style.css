@@ -2793,8 +2793,13 @@ span.wpcf7-not-valid-tip {
 }
 
 @media only screen and (max-width: 600px)  {
-.contact-form-wrap .info {
+
+.contactwrapper {
   display:none;
+}
+
+.contact-form-wrap {
+  margin-top:0;
 }
 
 span.wpcf7-form-control-wrap {
@@ -3082,7 +3087,15 @@ textarea {
 }
 }
 
+@media only screen and (max-width: 600px)  {
 
+.portfoliowrapper .row, .portfolio-top-divider {
+  display:none;
+}
+.portfoliowrapper .portfoliocontent {
+  margin-top:0px;
+}
+}
 
 
 
