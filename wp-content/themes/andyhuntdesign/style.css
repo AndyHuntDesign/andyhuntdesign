@@ -459,19 +459,57 @@ a.brand {
 }
 }
 
+
+
+
 @media only screen and (max-width: 400px)  {
+#slider-divider .mob-view {
+  display:inline-block;
+  text-align:center;
+  width:100%;
+}
+
+#slider-divider .mob-view p {
+  display:block;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 30px;
+  text-align:center;
+  color: #e3d786;
+  margin:0;
+  padding:0;
+}
+
+#slider-divider .mob-view ul {
+  list-style: none;
+  width: 100%;
+  margin: 0 auto;
+  display:inline-block;
+}
+
 #slider-divider .mob-view li {
   display: inline-block;
   margin: 0;
-  width:80px;
+  width:70px;
   float: none;
 }
+
+#slider-divider li:first-child {
+  color: #e3d786;
+  display:inline-block;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 20px;
+  margin: 0;
+}
+
+
 
 #slider-divider .mob-view li img{
   max-width:100%;
   height:auto;
 }
 }
+}
+
 
 
 
@@ -594,7 +632,29 @@ a.brand {
 }
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 700px)  {
+#slider-back {
+  background-size: 160%;
+}
+.home-slider {
+  height:440px;
+}
+.home-slider .heading {
+    padding: 3px 0 0px 0;
+}
+.home-slider img {
+  max-width:230px;
+  margin:0 auto;
+}
+}
+
+@media only screen and (max-width: 400px)  {
+#slider-back {
+  background-size: 220%;
+}
+}
+
+@media only screen and (max-width: 350px)  {
 #slider-back {
   background-size: 160%;
 }
@@ -2172,11 +2232,6 @@ ul.home-menu {
   margin:0 auto;
 }
 
-.blogpostcopy .blogpostwrap strong{
-  font-size:21px;
-  line-height:34px;
-}
-
 .blogpostcopy .row .blogpostcontent {
   max-width: 720px;
   margin: -160px 0 0 auto;
@@ -2361,11 +2416,6 @@ blockquote p {
     font-size:18px!important;
     line-height: 24px;
     padding:30px 0;
-}
-
-.blogpostcopy .blogpostwrap strong{
-  font-size:16px;
-  line-height:24px;
 }
 }
 
@@ -2743,15 +2793,25 @@ span.wpcf7-not-valid-tip {
 }
 
 @media only screen and (max-width: 600px)  {
+.contact-form-wrap .info {
+  display:none;
+}
+
 span.wpcf7-form-control-wrap {
     display: block;
 }
+
 .contact-form-wrap p {
   font-size: 14px!important;
   line-height:24px!important;
 }
+
 textarea, input {
   font-size:14px!important;
+}
+
+textarea {
+  height:130px;
 }
 }
 

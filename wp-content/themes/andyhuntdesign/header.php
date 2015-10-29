@@ -36,9 +36,9 @@
           href="<?php echo get_template_directory_uri();?>/assets/ico/apple-touch-icon-57-precomposed.png">
 
     
-
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+    <script src="<?php echo get_template_directory_uri();?>/js/core.js"></script>
     <script>
     $(window).load(function(){
          $('.preloader').fadeOut();
@@ -51,7 +51,7 @@
 </head>
 <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
 <div class='preloader'></div>
-
+<a name="top" id="top"></a>
 <div class="topstrap">
     <div class="row">
         <div class="floatleft">
