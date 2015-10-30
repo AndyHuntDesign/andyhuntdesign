@@ -57,6 +57,10 @@ p {
   font-weight:400;
 }
 
+a {
+  color:#ffffff;
+}
+
 .preheader {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase; 
@@ -3625,12 +3629,30 @@ a.extramargin {
   background: url(images/portfolio_arrow.png)
 }
 
+.about-black a {
+  text-decoration: none;
+  border-bottom:2px solid rgba(255,255,255,0.00);
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.about-black a:hover {
+  color:#ffffff;
+  border-bottom:2px solid rgba(255,255,255,1);
+}
+
+
+
 
 .about-black {
   width:100%;
   min-height:400px;
   background: url(images/portfolio_bg.png)!important;
   overflow: hidden;
+  position:relative;
 }
 
 .black-top {
@@ -3650,28 +3672,37 @@ a.extramargin {
   padding:60px 0;
 }
 
+.block-row-center {
+  max-width:1200px;
+  margin:0 auto;
+  padding:60px 0;
+  text-align:center;
+}
+
 .block-image-left {
   float:left;
-  width:70%;
-  text-align:right;
+  width:60%;
+  text-align:left;
 }
 
 .block-image-right {
   float:right; 
-  width:70%;
-  text-align:left;
+  width:60%;
+  text-align:right;
 }
 
 .block-copy-left {
   float:left;
-  width:30%;
+  width:40%;
   text-align:left;
+  padding-top:160px;
 }
 
 .block-copy-right {
   float:right;
-  width:30%;
+  width:40%;
   text-align:left;
+  padding-top:110px;
 }
 
 .about-black h2, .about-blue h2 {
@@ -3689,8 +3720,114 @@ a.extramargin {
   height:auto!important;
 }
 
+.block-movie {
+  margin:20px auto;
+  text-align:center;
+  width:900px;
+}
+
+.block-movie img{
+  width:100%!important;
+  max-width:900px!important;
+}
+
+p.movie-copy{
+  text-align:center;
+  max-width:520px;
+  margin:0 auto;
+}
 
 
+.block-row-doodle {
+  max-width:1200px;
+  margin:0 auto;
+  padding:60px 0;
+  text-align:center;
+}
+
+.block-row-doodle h2 {
+  font-family: 'Just Another Hand', cursive;
+  font-size:74px!important;
+  text-transform: none;
+  text-align: center;
+  padding-bottom:28px;
+}
+
+.block-row-doodle p {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 34px!important;
+  text-align: center;
+}
+
+
+
+/**************************************
+************    ICONS   ***************
+**************************************/
+
+i.spotify {
+  background: url(images/i_spotify.png);
+  background-size: 100%;
+  height:42px;
+  width:42px;
+  display:block;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+i.rockstar {
+  background: url(images/i_rockstar.png);
+  background-size: 100%;
+  height:38px;
+  width:38px;
+  display:block;
+  margin-bottom:3px;
+}
+
+i.football {
+  background: url(images/i_football.png);
+  background-size: 100%;
+  height:50px;
+  width:50px;
+  display:block;
+  margin-bottom:20px;
+}
+
+i.wolves {
+  background: url(images/i_wolves.png);
+  background-size: 100%;
+  height:30px;
+  width:32px;
+  display:block;
+  margin-top:40px;
+}
+
+i.movie {
+  background: url(images/i_movie.png);
+  background-size: 100%;
+  height:32px;
+  width:27px;
+  display:block;
+  margin:20px auto;
+}
+
+i.youtube {
+  background: url(images/i_youtube.png);
+  background-size: 100%;
+  height:44px;
+  width:39px;
+  display:block;
+  margin:20px auto;
+}
+
+i.work {
+  background: url(images/i_work.png);
+  background-size: 100%;
+  height:41px;
+  width:49px;
+  display:block;
+  margin:20px auto;
+}
 
 
 
