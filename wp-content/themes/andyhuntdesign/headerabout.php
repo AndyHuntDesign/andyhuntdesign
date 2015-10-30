@@ -68,7 +68,7 @@
 
 </head>
 <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
-<div class='preloader'></div>
+<!--<div class='preloader'></div>-->
 
 <div class="topstrap">
     <div class="row">
