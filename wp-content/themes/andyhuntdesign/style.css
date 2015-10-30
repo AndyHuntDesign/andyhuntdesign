@@ -3823,6 +3823,15 @@ i.youtube {
 i.work {
   background: url(images/i_work.png);
   background-size: 100%;
+  height:25px;
+  width:32px;
+  display:block;
+  margin:20px auto;
+}
+
+i.doodle {
+  background: url(images/i_doodle.png);
+  background-size: 100%;
   height:41px;
   width:49px;
   display:block;

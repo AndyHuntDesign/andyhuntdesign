@@ -73,8 +73,6 @@
                     <i class="doodle"></i>
                     <h2>Inspired by doodling</h2>
                     <p>If I’m stuck in a bit of a pickle, I like to doodle ideas down and it helps me out. Not that I’m likely to design a website that’s a bunch of smiley faces with moustaches any time soon</p>
-                    <i class="spotify"></i> 
-                    <a href="#">View my Spotify</a>
                 </div>
             </div>
         </div>
