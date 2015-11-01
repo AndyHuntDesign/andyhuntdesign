@@ -36,7 +36,7 @@
             </div>
         </div>
     </div>
-    <div class="section about-black" id="section1" style="margin-top:-330px; padding-bottom:330px">
+    <!--<div class="section about-black" id="section1" style="margin-top:-330px; padding-bottom:330px">
         <div class="intro">
             <div class="block-row ">
                 <div class="block-copy-left">
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
         <div class="section about-black black-top" id="section2" style="margin-top:-330px; padding-bottom:330px">
             <div class="block-row-center">
@@ -59,7 +59,7 @@
                  <div class="block-movie">
                     <img src="/wp-content/themes/andyhuntdesign/images/movie-block.png">
                  </div>
-                 <p class="movie-copy">I had the usual childhood dream of being a professional footballer, but the ambition stopped when the dream was to play for Wolves. I aimed for the stars, so I did</p>
+                 <p class="movie-copy">Reading about people can be boring so I turned my CV into a cartoon. Grab some pop corn and prepare to be bored in a different way</p>
                  <i class="youtube"></i>
             </div>
         </div>
