@@ -23,13 +23,12 @@
 <div id="fullpage" style="z-index:100000">
     <div class="portfolio-top-divider"></div>
     <div class="section about-black black-top" id="section0">
-        <div class="block-row ">
+        <div class="block-row" style="margin-top:-330px; padding-bottom:330px">
             <div class="block-image-left">
-                <img src="/wp-content/themes/andyhuntdesign/images/about-football.png">
+                <img src="/wp-content/themes/andyhuntdesign/images/kurt.png">
             </div>
             <div class="block-copy-right">
-                <i class="rockstar"></i>
-                <h2>I wanted to be a rockstar</h2>
+                <h2>I wanted to be a Kurt Cobain</h2>
                 <p>After my formative years of busting shapes to the likes of A-Ha and T-Pau, I progressed to being a total grunge head. I still play the banjo today. Rock on!</p>
                 <i class="spotify"></i> 
                 <a href="#">View my Spotify</a>
