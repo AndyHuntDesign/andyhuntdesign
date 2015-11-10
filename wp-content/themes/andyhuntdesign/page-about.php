@@ -54,9 +54,17 @@
         <div class="section about-black black-top" id="section2" style="margin-top:-330px; padding-bottom:330px">
             <div class="block-row-center">
                 <i class="movie"></i>
-                 <h2>I star in my own movie</h2>
-                 <div class="block-movie">
-                    <img src="/wp-content/themes/andyhuntdesign/images/movie-block.png">
+                <h2>I star in my own movie</h2>
+                <div class="block-movie">
+                    <div class="videoWrapper">
+                        <script>
+                          $('img').click(function(){
+                                var video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+                                $(this).replaceWith(video);
+                            });
+                        </script>
+                        <img src="/wp-content/themes/andyhuntdesign/images/movie-block.png" data-video="https://www.youtube.com/embed/ZDDQl-5MlXc?autoplay=1">
+                    </div>
                  </div>
                  <p class="movie-copy">Reading about people can be boring so I turned my CV into a cartoon. Grab some pop corn and prepare to be bored in a different way</p>
                  <i class="youtube"></i>
