@@ -68,7 +68,11 @@
 
 </head>
 <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
-<!--<div class='preloader'></div>-->
+<div class='preloader'>
+  <div class="inner fadeInUp delay01">
+    <img src="<?php bloginfo('template_directory'); ?>/images/loader.gif" width="130" height="183"/>
+  </div>
+</div>
 
 <div class="topstrap">
     <div class="row">
