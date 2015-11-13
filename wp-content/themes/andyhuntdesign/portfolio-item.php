@@ -11,9 +11,6 @@
 <?php include ('header.php'); ?>
 
 <div id="portfolio-wrap">
-    
-
-     
     <div class="portfoliowrapper">
         <div class="row">
             <h1>MY NAME IS ANDY <span class="mob-none">AND I'M A DIGITAL DESIGNER</span></h1>

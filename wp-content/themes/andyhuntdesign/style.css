@@ -94,6 +94,24 @@ a {
   margin-left: 10px;
 }
 
+p.proxima {
+  font-family:ProximaNovaExCn-Thin; 
+  font-size:38px; 
+  line-height:40px;
+  color:#fff; 
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.3); 
+  margin:5px 0 0 0;
+}
+
+p.impact {
+  font-family:Impact; 
+  font-size:30px; 
+  color:#b6b6b6; 
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.3); 
+  margin:5px 0 0 0; 
+  line-height:26px;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 1920px)  {
@@ -3629,13 +3647,24 @@ a.extramargin {
   background: url(images/portfolio_arrow.png)
 }
 
+.about-blue p, .about-black p {
+  color:#ffffff;
+}
+
+.about-blue h2, .about-black h2 {
+  color:#ffffff;
+}
+
+
+
+
 .about-blue {
   width:100%;
   min-height: 600px;
   position:relative;
   z-index:100;
   background: url(images/bg.png);
-
+  float:left;
 }
 
 .about-black {
@@ -3643,17 +3672,54 @@ a.extramargin {
   min-height: 600px;
   position:relative;
   z-index:100;
+  float:left;
   background: url(images/portfolio_bg.png);
 }
 
+.about-blue img{
+  max-width:420px;
+  height:auto;
+}
+
 .about-fifty-left {
-  width:50%;
+  width:44%;
   float:left;
+  padding-right:6%;
+  text-align:right;
+  position:relative;
 }
 
 .about-fifty-right {
   width:50%;
   float:left;
+}
+
+.about-full-row {
+  max-width:1600px;
+  margin:0 auto;
+  padding:60px 0;
+  text-align:center;
+}
+
+.about-full-row h2 {
+  text-align:center;
+  color:#ffffff;
+}
+
+.about-full-row p {
+  max-width:600px;
+  margin:0 auto;
+}
+
+.gradient {
+  position:absolute;
+  height:90px;
+  width:100%;
+  bottom:8%;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.10) 99%, rgba(0,0,0,0.10) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.10) 99%,rgba(0,0,0,0.10) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.10) 99%,rgba(0,0,0,0.10) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#40000000',GradientType=0 ); /* IE6-9 */
 }
 
 
@@ -3674,13 +3740,6 @@ p.movie-copy{
   margin:0 auto;
 }
 
-.block-row-doodle {
-  max-width:1200px;
-  margin:0 auto;
-  padding:60px 0;
-  text-align:center;
-}
-
 .block-row-doodle h2 {
   font-family: 'Just Another Hand', cursive;
   font-size:74px!important;
@@ -3695,9 +3754,33 @@ p.movie-copy{
   text-align: center;
 }
 
+.typo-full {
+  max-width:1000px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.typo-love {
+  float:left;
+  padding:130px 30px 0 30px;
+  width:450px;
+  height:329px;
+  text-align:center;
+  background: url(images/love.png);
+}
+
+.typo-hate {
+  float:left;
+  padding:130px 30px 0 30px;
+  width:399px;
+  height:319px;
+  text-align:center;
+  background: url(images/hate.png);
+}
+
 .videoWrapper {
   position: relative;
-  padding-bottom: 68.85%; /* 16:9 */
+  padding-bottom: 500px; /* 16:9 */
   height: 0;
   cursor:pointer;
 }
