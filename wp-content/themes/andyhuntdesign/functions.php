@@ -225,6 +225,8 @@ if (!function_exists('bootstrapwp_comment')) :
                                         'Post author',
                                         'bootstrapwp'
                                     ) . '</span> ' : ''); ?>
+
+                                <span>says</span>
                             </h4>
 
                             <?php if ('0' == $comment->comment_approved) : ?>
@@ -248,7 +250,7 @@ if (!function_exists('bootstrapwp_comment')) :
                             </p>
                             <p class="reply">
                                 <?php comment_reply_link( array_merge($args, array(
-                                            'reply_text' => __('Reply <span>&darr;</span>', 'bootstrapwp'),
+                                            'reply_text' => __('Reply', 'bootstrapwp'),
                                             'depth'      => $depth,
                                             'max_depth'  => $args['max_depth']
                                         )

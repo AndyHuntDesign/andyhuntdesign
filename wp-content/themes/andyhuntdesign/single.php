@@ -97,10 +97,6 @@
 </div>
 
 
-
-
-
-
 <div class="share">
     <div class="sharewrap">
         <div class="share-twitter">
@@ -116,6 +112,23 @@
     </div>
 </div>
 
+<div class="comment-box">
+    <div class="row">
+        <?php comments_template( '', true ); ?>
+    </div>
+</div>
+
 <div class="blog-divider"></div>
 <?php endwhile; // end of the loop. ?>
+
+
+
+
 <?php include ('footer-blog.php'); ?>
+
+
+
+
+
+
+

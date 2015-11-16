@@ -6466,8 +6466,7 @@ ol.comment-list li p.meta strong {
 }
 .button,
 #submit,
-.widget_search #searchsubmit,
-.reply .comment-reply-link {
+.widget_search #searchsubmit {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   color: white;
   padding: 5px 10px 5px;
@@ -6498,8 +6497,7 @@ ol.comment-list li p.meta strong {
 }
 .button:hover,
 #submit:hover,
-.widget_search #searchsubmit:hover,
-.reply .comment-reply-link:hover {
+.widget_search #searchsubmit:hover {
   color: #333333;
   text-decoration: none;
   background-color: #e6e6e6;
