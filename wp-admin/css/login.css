@@ -6,6 +6,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background: url(../wp-content/themes/andyhuntdesign/images/portfolio_bg.png);
 }
 
 html {
@@ -91,8 +92,8 @@ p {
 	font-weight: normal;
 	overflow: hidden;
 	background: #fff;
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.13);
-	box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important;
 }
 
 .login form .forgetmenot {
