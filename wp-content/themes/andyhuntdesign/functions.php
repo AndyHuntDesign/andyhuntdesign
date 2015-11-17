@@ -362,6 +362,45 @@ function bootstrapwp_autoset_featured_img()
 
 }
 
+/* Add Placehoder in comment Form Fields (Name, Email, Website) */
+ 
+add_filter( 'comment_form_default_fields', 'help4cms_comment_placeholders' );
+function help4cms_comment_placeholders( $fields )
+{
+    $fields['author'] = str_replace(
+        '<input',
+        '<input placeholder="Name"',
+        $fields['author']
+    );
+    $fields['email'] = str_replace(
+        '<input',
+        '<input placeholder="Email"',
+        $fields['email']
+    );
+    $fields['url'] = str_replace(
+        '<input',
+        '<input placeholder="Website..."',
+        $fields['url']
+    );
+    return $fields;
+}
+ 
+/* Add Placehoder in comment Form Field (Comment) */
+add_filter( 'comment_form_defaults', 'help4cms_textarea_placeholder' );
+ 
+function help4cms_textarea_placeholder( $fields )
+{
+  
+        $fields['comment_field'] = str_replace(
+            '<textarea',
+            '<textarea placeholder="Add your comment"',
+            $fields['comment_field']
+        );
+   
+ 
+    return $fields;
+}
+
 
 /**
  * Define default page titles.

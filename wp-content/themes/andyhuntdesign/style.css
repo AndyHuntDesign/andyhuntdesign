@@ -3159,6 +3159,56 @@ textarea {
 
 
 
+/**************************************
+******    PORTFOLIO BUTTONS   *********
+**************************************/
+
+
+.previous-port {
+  position:fixed;
+  left:0;
+  width:60px;
+  height:120px;
+  top:50%;
+  z-index: 999999999;
+  overflow:hidden;
+  background:url(images/arrow_dark_left.png);
+}
+
+.previous-port:hover {
+  background-position: -60px
+}
+
+.next-port {
+  position:fixed;
+  right:0;
+  width:60px;
+  height:120px;
+  background:green;
+  top:50%;
+  z-index: 99999999;
+  overflow:hidden;
+  background:url(images/arrow_dark_right.png);
+}
+
+.next-port:hover {
+  background-position: -60px
+}
+
+.previous-port a, .next-port a {
+  opacity:0!important;
+  font-size:300px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 700px)  {
+.previous-port, .next-port {
+  display:none;
+}
+}
+
 
 
 
@@ -4596,10 +4646,10 @@ section {
 }
 
 .comment-box .pull-left img{
-    float: left;
-    width:100px!important;
-    height:100px!important;
-    border-radius:80px;
+  float: left;
+  width:100px!important;
+  height:100px!important;
+  border-radius:80px;
 }
 
 .comment-box .media-body {
@@ -4740,6 +4790,8 @@ section {
 
 #respond h3 {
   color:#ffffff;
+  font-size:16px!important;
+  line-height: 18px!important
 }
 
 #respond label {
@@ -4755,15 +4807,86 @@ section {
   color:#ffffff!important;
 }
 
+#respond p.comment-notes{
+  color:#ffffff!important;
+  font-size:12px;
+  font-style:italic;
+  padding-bottom:30px;
+}
+
 #respond p.logged-in-as{
   color:#ffffff!important;
   font-size:13px!important;
 }
-    
-    
-    
+
+#respond input[name="url"] {
+  display:none;
+}
+
+#comments time:hover {
+  color:#ffffff!important;
+  text-decoration:none!important;
+}
+
+p.meta a:hover {
+  color:#ffffff!important;
+  text-decoration:none!important;
+}
+  
+::-webkit-input-placeholder {
+ opacity:0.7!important;
+ font-style:italic!important;
+}
+:-moz-placeholder { /* older Firefox*/
+ opacity:0.7!important;
+ font-style:italic!important;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ opacity:0.7!important;
+ font-style:italic!important;
+} 
+:-ms-input-placeholder { 
+ opacity:0.7!important;
+ font-style:italic!important;
+}
 
 
+
+/* Responsive */
+
+
+
+@media only screen and (max-width: 700px)  {
+.comment-box .pull-left {
+  display:none;
+}
+
+.comment-box {
+  padding-top:40px;
+}
+
+.comments-area {
+  padding:0 40px
+}
+
+#respond {
+  margin-left:0px;
+}
+
+.comment-box p {
+    color: #ffffff!important;
+    font-size:14px;
+    line-height:21px;
+}
+
+#comments time {
+  font-size:12px;
+}
+
+.comment-reply-link {
+  line-height:40px;
+}
+}
 
 
 /**************************************

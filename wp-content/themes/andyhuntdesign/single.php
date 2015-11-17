@@ -96,6 +96,12 @@
     wp_reset_query(); ?>
 </div>
 
+<div class="comment-box">
+    <div class="row">
+        <?php comments_template( '', true ); ?>
+    </div>
+</div>
+
 
 <div class="share">
     <div class="sharewrap">
@@ -112,11 +118,6 @@
     </div>
 </div>
 
-<div class="comment-box">
-    <div class="row">
-        <?php comments_template( '', true ); ?>
-    </div>
-</div>
 
 <div class="blog-divider"></div>
 <?php endwhile; // end of the loop. ?>

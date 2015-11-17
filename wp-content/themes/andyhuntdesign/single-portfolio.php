@@ -36,8 +36,12 @@
 </div> 
 
 
-
-
+<div class="previous-port">
+    <?php previous_post_link(); ?>
+</div>
+<div class="next-port">
+    <?php next_post_link(); ?>
+</div>
 
 
 <div class="portfoliooverview">
