@@ -5074,6 +5074,54 @@ p.meta a:hover {
 
 
 
+/**************************************
+***************** 404 *****************
+**************************************/
+
+.notfound-container {
+  width:100%;
+  text-align: center!important;
+}
+
+.notfound-container .strap {
+  width:100%;
+  padding:20px 0;
+  margin-bottom:160px;
+  background: #111111;
+  border-bottom: 1px solid rgba(146,196,219, 0.1);
+}
+
+.notfound-container .strap p{
+  font-size: 13px!important;
+  line-height: 20px!important;
+  color: #ffffff!important;
+  font-family: 'Lato', sans-serif!important;
+  font-weight:900!important;
+  letter-spacing: 4px!important;
+  text-transform: uppercase!important;
+}
+
+.notfound-container h1{
+  color:#ffffff;
+  font-size:300px!important;
+  line-height:250px!important;
+  display:block;
+}
+
+.notfound-container a {
+  color:#ffffff;
+}
+
+.notfound-container a:hover {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+
+
+
+
+
 
 
 
