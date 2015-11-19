@@ -29,7 +29,7 @@
     <div class="gradient"></div>
   </div>
   <div class="about-fifty-right">
-    <div class="words">
+    <div class="words wow slideInRight">
       <h2>I wanted to be Kurt Cobain</h2>
       <p>After my formative years of busting shapes to the likes of A-Ha and T-Pau, I progressed to being a total grunge head. I still play the banjo today. Rock on!</p>
       <i class="spotify"></i> 
@@ -65,9 +65,9 @@
 <div class="about-black">
   <div class="block-row-doodle">
     <div class="about-fifty-left">
-      <img src="/wp-content/themes/andyhuntdesign/images/about-football.png">
+      <div class="wow fadeInUp"><img src="/wp-content/themes/andyhuntdesign/images/about-football.png"></div>
     </div>
-    <div class="about-fifty-right">
+    <div class="about-fifty-right wow slideInRight">
       <i class="doodle"></i>
       <h2>Inspired by doodling</h2>
       <p>If i’m stuck in a bit of a pickle, I like to doodle ideas down and it helps me out. Not that I’m likely to design a website that’s a bunch of smiley faces with moustaches any time soon</p>
@@ -78,10 +78,10 @@
 
 <div class="about-black">
   <div class="typo-full">
-    <div class="typo-love">
+    <div class="typo-love wow slideInLeft">
       <p class="proxima">I love clear & beautiful typography with awesome fonts that are spaced out clearly and uses friendly & engaging language</p>
     </div>
-    <div class="typo-hate">
+    <div class="typo-hate wow slideInRight">
       <p class="impact">I can't stand nonsense typography and stale fonts that seem to have been lobbed in to a design last minute and utilises formal language that doesn't mean a thing</p>>
     </div>
   </div>

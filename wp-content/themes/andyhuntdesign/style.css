@@ -3718,10 +3718,12 @@ a.extramargin {
 .about-black {
   width:100%;
   min-height: 600px;
+  padding-bottom:80px;
   position:relative;
   z-index:100;
   float:left;
   background: url(images/portfolio_bg.png);
+  border-bottom:1px solid rgba(255,255,255, 0.08);
 }
 
 .about-fifty-left img{
@@ -3900,6 +3902,11 @@ p.movie-copy{
   width:90%;
   margin:0 auto;
   text-align:center;
+}
+
+.about-fifty-left img{
+  max-width:70%;
+  height:auto;
 }
 
 i.spotify {
