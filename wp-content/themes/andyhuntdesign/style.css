@@ -3706,8 +3706,6 @@ a.extramargin {
 }
 
 
-
-
 .about-blue {
   width:100%;
   min-height: 600px;
@@ -3726,7 +3724,7 @@ a.extramargin {
   background: url(images/portfolio_bg.png);
 }
 
-.about-blue img{
+.about-fifty-left img{
   max-width:420px;
   height:auto;
 }
@@ -3741,7 +3739,13 @@ a.extramargin {
 
 .about-fifty-right {
   width:50%;
+  position:relative;
   float:left;
+}
+
+.about-fifty-right .words{
+  padding-top:300px;
+  max-width:400px;
 }
 
 .about-full-row {
@@ -3804,6 +3808,11 @@ p.movie-copy{
   text-align: center;
 }
 
+.block-row-doodle img {
+  max-width:100%;
+  height: auto;
+}
+
 .typo-full {
   max-width:1000px;
   margin:0 auto;
@@ -3814,18 +3823,18 @@ p.movie-copy{
   float:left;
   padding:130px 30px 0 30px;
   width:450px;
-  height:329px;
+  height:349px;
   text-align:center;
-  background: url(images/love.png);
+  background: url(images/love.png) no-repeat;
 }
 
 .typo-hate {
   float:left;
   padding:130px 30px 0 30px;
   width:399px;
-  height:319px;
+  height:349px;
   text-align:center;
-  background: url(images/hate.png);
+  background: url(images/hate.png)no-repeat;
 }
 
 .videoWrapper {
@@ -3844,12 +3853,122 @@ p.movie-copy{
   border:none;
 }
 
+.working img {
+  margin:30px 0;
+}
+
 
 /* Responsive */
 
 
 
+@media only screen and (max-width: 970px)  {
+.typo-full {
+  width:100%;
+  overflow:hidden;
+}
+.typo-love {
+  float:none;
+  margin:0 auto;
+}
 
+.typo-hate {
+  float:none;
+  margin:0 auto;
+}
+}
+
+
+@media only screen and (max-width: 700px)  {
+
+.about-fifty-left {
+  width:100%;
+  padding-right:0%;
+  float:left;
+  text-align:center;
+  position:relative;
+}
+
+.about-fifty-right {
+  width:100%;
+  float:left;
+  text-align:center;
+} 
+
+.about-fifty-right .words{
+  padding-top:10px;
+  width:90%;
+  margin:0 auto;
+  text-align:center;
+}
+
+i.spotify {
+  margin:0 auto;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 68%; /* 16:9 */
+  height: 0;
+  cursor:pointer;
+}
+
+.working img {
+  max-width:80%;
+  margin:30px 0;
+}
+
+.block-row-doodle .about-fifty-left {
+  float:right!important;
+}
+
+.block-row-doodle .about-fifty-right {
+  float:left!important;
+}
+
+.typo-full {
+  width:100%;
+  overflow:hidden;
+}
+
+.typo-love {
+  float:none;
+  padding:40px 10px 0 10px;
+  width:280px;
+  height:300px;
+  text-align:center;
+  background: url(images/love.png) no-repeat;
+  background-size:100%;
+}
+
+.typo-hate {
+  float:none;
+  padding:60px 10px 0 10px;
+  width:229px;
+  height:349px;
+  text-align:center;
+  background: url(images/hate.png)no-repeat;
+  background-size:100%;
+}
+
+p.proxima {
+  font-family:ProximaNovaExCn-Thin; 
+  font-size:28px; 
+  line-height:34px;
+  color:#fff; 
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.3); 
+  margin:5px 0 0 0;
+}
+
+p.impact {
+  font-family:Impact; 
+  font-size:20px; 
+  color:#b6b6b6; 
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.3); 
+  margin:5px 0 0 0; 
+  line-height:16px;
+}
+}
 
 
 

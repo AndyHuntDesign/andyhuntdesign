@@ -29,10 +29,12 @@
     <div class="gradient"></div>
   </div>
   <div class="about-fifty-right">
-    <h2>I wanted to be Kurt Cobain</h2>
-    <p>After my formative years of busting shapes to the likes of A-Ha and T-Pau, I progressed to being a total grunge head. I still play the banjo today. Rock on!</p>
-    <i class="spotify"></i> 
-    <a href="#">View my Spotify</a>
+    <div class="words">
+      <h2>I wanted to be Kurt Cobain</h2>
+      <p>After my formative years of busting shapes to the likes of A-Ha and T-Pau, I progressed to being a total grunge head. I still play the banjo today. Rock on!</p>
+      <i class="spotify"></i> 
+      <a href="#">View my Spotify</a>
+    </div>
   </div>
 </div>
 
@@ -55,6 +57,7 @@
     </div>
     <p>Reading about people can be boring so I turned my CV into a cartoon. Grab some pop corn and prepare to be bored in a different way</p>
     <i class="youtube"></i>
+    <a href="#">Watch on YouTube</a>
   </div>
 </div>
 
@@ -85,7 +88,7 @@
 </div>
 
 
-<div class="about-black">
+<div class="about-black working">
   <div class="about-full-row wow fadeInUp ">
       <i class="work"></i>
       <h2>I work at Graphic Alliance</h2>
