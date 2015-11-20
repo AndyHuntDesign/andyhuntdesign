@@ -105,13 +105,13 @@ get_header(); ?>
                 <p>I draw pictures, I blog on occassions and I tweet. Have a little look</p>
             </div>
             <div class="botrow desktop-view">
-                <div class="col01 wow fadeInUp"><a href="https://twitter.com/andyhuntdesign" target="_blank"></a></div>
-                <div class="col02 wow fadeInUp delay01"><a href="/blog" target="_blank"></a></div>
-                <div class="col03 wow fadeInUp delay02"><a href="https://twitter.com/andyhuntdesign" target="_blank"></a></div>
+                <div class="col01 wow fadeInUp"><a href="/about"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></a></div>
+                <div class="col02 wow fadeInUp delay01"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></div>
+                <div class="col03 wow fadeInUp delay02"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></div>
             </div>
             <div class="botrow mob-view">
                 <ul>
-                    <li class="wow fadeInUp delay01"><img src="<?php echo get_template_directory_uri();?>/images/block_about.png"></li>
+                    <li class="wow fadeInUp delay01"><a href="/about"><img src="<?php echo get_template_directory_uri();?>/images/block_about.png"></li>
                     <li class="wow fadeInUp delay01"><a href="/blog"><img src="<?php echo get_template_directory_uri();?>/images/block_blog.png"></a></li>
                     <li class="wow fadeInUp delay01"><a href="https://twitter.com/andyhuntdesign" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/block_twitter.png"></a></li>
                 </ul>
