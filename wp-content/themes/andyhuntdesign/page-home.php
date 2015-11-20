@@ -106,8 +106,8 @@ get_header(); ?>
             </div>
             <div class="botrow desktop-view">
                 <div class="col01 wow fadeInUp"><a href="/about"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></a></div>
-                <div class="col02 wow fadeInUp delay01"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></div>
-                <div class="col03 wow fadeInUp delay02"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></div>
+                <div class="col02 wow fadeInUp delay01"><a href="/blog"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></a></div>
+                <div class="col03 wow fadeInUp delay02"><a href="https://twitter.com/andyhuntdesign" target="_blank"><img src="<?php echo get_template_directory_uri();?>/images/spacer.png"></a></div>
             </div>
             <div class="botrow mob-view">
                 <ul>
