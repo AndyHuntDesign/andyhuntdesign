@@ -21,7 +21,7 @@ get_header(); ?>
                     <span class="italic">and</span> <span class="sub">I'm a designer for web</span> 
                   </div>
                   <div class="avatar">
-                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_illustration.png" alt="Geek">
+                    <a href="/work"><img src="<?php echo get_template_directory_uri();?>/images/slider/slide_illustration.png" alt="Geek"></a>
                   </div>
                 </div>  
                 <div class="item">
@@ -29,7 +29,7 @@ get_header(); ?>
                     <span class="italic">and</span> <span class="sub">I'm a front end developer</span> 
                   </div>
                   <div class="avatar">
-                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_geek.png" alt="Geek">
+                    <a href="/work"><img src="<?php echo get_template_directory_uri();?>/images/slider/slide_geek.png" alt="Geek"></a>
                   </div>
                 </div> 
                 <div class="item">
@@ -37,7 +37,7 @@ get_header(); ?>
                     <span class="italic">and</span> <span class="sub">I totally rock</span>
                   </div>
                   <div class="avatar">
-                    <img src="<?php echo get_template_directory_uri();?>/images/slider/slide_rock.png" alt="Rocking">
+                    <a href="/contact"><img src="<?php echo get_template_directory_uri();?>/images/slider/slide_rock.png" alt="Rocking"></a>
                   </div>
                 </div> 
               </div>
