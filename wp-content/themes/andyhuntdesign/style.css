@@ -2539,6 +2539,15 @@ blockquote p {
   text-align:center;
 }
 
+.contact-icons {
+  position: relative;
+  z-index: 200;
+  width: 100%;
+  min-height: 380px;
+  overflow: hidden;
+  background: url(images/portfolio_bg.png)
+}
+
 
 .contact-form-wrap {
   position: relative;
@@ -2568,7 +2577,7 @@ blockquote p {
 .contact-form-wrap .row {
   max-width:1600px;
   margin:0 auto;
-  padding:105px 0 30px 0;
+  padding:45px 0 30px 0;
 }
 
 .contact-form-wrap .form {
@@ -2592,6 +2601,61 @@ blockquote p {
   margin:30px 0;
 }
 
+.contact-icons {
+  position: relative;
+  z-index: 200;
+  width: 100%;
+  color:#ffffff;
+  min-height: 380px;
+  margin-top:-20px;
+  overflow: hidden;
+  background: url(images/portfolio_bg.png)
+}
+
+.contact-icons h4 {
+  font-size:18px;
+  font-weight:normal;
+  margin-bottom:16px;
+  padding-top:24px;
+  padding-bottom:24px;
+  border-bottom:1px solid rgba(255,255,255, 0.05)!important;;
+  margin-top:10px;
+}
+
+.contact-icons p {
+  font-size:14px;
+  line-height:21px;
+  color:#ffffff;
+}
+
+.contact-icons .row {
+  max-width:1000px;
+  margin:0 auto;
+  padding:105px 0 30px 0;
+  text-align:center;
+}
+
+.contact-icons .row img{
+  max-width:100%;
+  height:auto;
+}
+
+.contact-icons ul {
+  list-style: none;
+  display:inline-block;
+  text-align:center;
+}
+
+.contact-icons li {
+  width:25%;
+  margin-right:8%;
+  float:left;
+}
+
+.contact-icons .case-study-divider {
+  height:auto!important;
+  min-height:60px;
+}
 
 .cform {
   width:100%; 
