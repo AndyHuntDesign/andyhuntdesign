@@ -34,16 +34,12 @@
     </div>
     <?php the_block( 'Hero Image' ); ?>
 </div> 
-
-
 <div class="previous-port">
-    <?php previous_post_link(); ?>
+    <?php previous_post_link('%link'); ?>
 </div>
 <div class="next-port">
-    <?php next_post_link(); ?>
+    <?php next_post_link('%link'); ?>
 </div>
-
-
 <div class="portfoliooverview">
     <div class="portfolioscreen">
         <?php the_block( 'Screen' ); ?>
@@ -63,7 +59,6 @@
        <?php the_block( 'Overview' ); ?>
    </div>
 </div>  
-
 <div class="container portfoliocopy black slider-mob pre-sliders">
     <div class="row content">
         <div class="portfoliocontent">     
@@ -74,7 +69,6 @@
         </div>
     </div>
 </div>
-
 <div class="container portfoliocopy screens slider-mob">
     <div class="row content">
         <div class="portfoliocontent">     
@@ -90,7 +84,6 @@
         </div>
     </div>
 </div>
-
 <div class="container portfoliocopy black slider-mob-view">
     <div class="row content">
         <div class="portfoliocontent">     
@@ -106,11 +99,9 @@
         </div>
     </div>
 </div>
-
 <div class="container portfoliotestimonial" style="background:#ffffff;">
     <?php the_block( 'Testimonials' ); ?>
 </div>
-
 <div class="container portfoliocopy screens slider-mob responsive">
     <div class="row content">
         <div class="portfoliocontent">     
@@ -140,7 +131,6 @@
         <p>Share the love</p>
     </div>
 </div>
-
 <div class="portfolio-item-divider"></div>
             <?php the_tags('<p>Tags: ', ', ', '</p>'); ?>
             <?php endwhile; // end of the loop. ?>
