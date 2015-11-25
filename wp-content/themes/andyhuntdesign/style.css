@@ -3237,10 +3237,16 @@ textarea {
   z-index: 999999999;
   overflow:hidden;
   background:url(images/arrow_dark_left.png);
+  opacity:0.01;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .previous-port:hover {
-  background-position: -60px
+  opacity:1;
 }
 
 .next-port {
@@ -3253,10 +3259,16 @@ textarea {
   z-index: 99999999;
   overflow:hidden;
   background:url(images/arrow_dark_right.png);
+  opacity:0.01;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .next-port:hover {
-  background-position: -60px
+  opacity:1
 }
 
 .previous-port a, .next-port a {
