@@ -3686,12 +3686,15 @@ a.extramargin {
   display:block;
 }
 
-.potfolioitemintro {
-  display:none;
-}
+.potfolioitemintro h2 {
+  font-size:38px;
+  margin-bottom: 7px;
 }
 
-
+.potfolioitemintro ul li.portfolioitemcat {
+   display:none;
+}
+}
 
 
 

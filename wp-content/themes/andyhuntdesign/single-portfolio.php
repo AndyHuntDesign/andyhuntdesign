@@ -42,21 +42,23 @@
 </div>
 <div class="portfoliooverview">
     <div class="portfolioscreen">
-        <?php the_block( 'Screen' ); ?>
+        <div class="screenbg wow slideInLeft"><?php the_block( 'Screen' ); ?></div>
     </div> 
     <div class="row">
-        <?php
-        $categories = get_the_category();
-        $separator = '   |   ';
-        $output = '';
-        if($categories){
-        foreach($categories as $category) {
-            $output .= '<a class="cat" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name. '</a>'.$separator;
+        <div class="wow slideInRight">
+            <?php
+            $categories = get_the_category();
+            $separator = '   |   ';
+            $output = '';
+            if($categories){
+            foreach($categories as $category) {
+                $output .= '<a class="cat" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name. '</a>'.$separator;
+                }
+                echo trim($output, $separator);
             }
-            echo trim($output, $separator);
-        }
-        ?>
-       <?php the_block( 'Overview' ); ?>
+            ?>
+           <?php the_block( 'Overview' ); ?>
+       </div>
    </div>
 </div>  
 <div class="container portfoliocopy black slider-mob pre-sliders">
@@ -64,7 +66,7 @@
         <div class="portfoliocontent">     
             <?php the_content(); ?>
             <div class="row">
-                <?php the_block( 'Sliders' ); ?>
+                <div class="wow fadeInUp"><?php the_block( 'Sliders' ); ?></div>
             </div>
         </div>
     </div>
@@ -79,7 +81,7 @@
                         <h2>DESIGNS</h2>
                     </div>
                 </div>
-                <?php the_block( 'Screens' ); ?>
+                <div class="wow fadeInUp"><?php the_block( 'Screens' ); ?></div>
             </div>
         </div>
     </div>
@@ -94,7 +96,7 @@
                         <h2>DESIGNS</h2>
                     </div>
                 </div>
-                <?php the_block( 'Mobile View Screens' ); ?>
+                <div class="wow fadeInUp"><?php the_block( 'Mobile View Screens' ); ?></div>
             </div>
         </div>
     </div>
@@ -112,7 +114,7 @@
                         <h2>RESPONSIVE</h2>
                     </div>
                 </div>
-                <?php the_block( 'Responsive' ); ?>
+                <div class="wow fadeInUp"><?php the_block( 'Responsive' ); ?></div>
             </div>
         </div>
     </div>
