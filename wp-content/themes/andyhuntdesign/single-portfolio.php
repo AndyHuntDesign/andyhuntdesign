@@ -15,7 +15,7 @@
 <?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
 <div class="portfolioheader" data-img-width="1600" data-img-height="1064" data-diff="100">
     <div class="potfolioitemintro"> 
-        <h2><?php echo get_the_title( $ID ); ?><h2>
+        <h2><?php echo get_the_title( $ID ); ?></h2>
         <ul>
             <li class="portfolioitemcat">
                 <?php
