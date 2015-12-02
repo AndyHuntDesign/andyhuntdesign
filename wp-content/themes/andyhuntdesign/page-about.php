@@ -20,8 +20,6 @@
 </div>
 
 
-
-
 <div class="about-black">
   <div class="portfolio-top-divider"></div>
 	<div class="about-fifty-left">
@@ -37,7 +35,6 @@
     </div>
   </div>
 </div>
-
 
 
 <div class="about-black">
@@ -65,12 +62,12 @@
 <div class="about-black">
   <div class="block-row-doodle">
     <div class="about-fifty-left">
-      <div class="wow fadeInUp"><img src="/wp-content/themes/andyhuntdesign/images/about-football.png"></div>
+      <div class="wow fadeInUp"><img src="/wp-content/themes/andyhuntdesign/images/doodle.png"></div>
     </div>
     <div class="about-fifty-right wow slideInRight">
       <i class="doodle"></i>
       <h2>Inspired by doodling</h2>
-      <p>If i’m stuck in a bit of a pickle, I like to doodle ideas down and it helps me out. Not that I’m likely to design a website that’s a bunch of smiley faces with moustaches any time soon</p>
+      <p>If I’m stuck in a bit of a pickle, I like to doodle ideas down and it helps me out. Not that I’m likely to design a website that’s a bunch of smiley faces with moustaches any time soon</p>
     </div>
   </div>
 </div>
@@ -78,10 +75,10 @@
 
 <div class="about-black">
   <div class="typo-full">
-    <div class="typo-love wow slideInLeft">
+    <div class="typo-love wow fadeInUp">
       <p class="proxima">I love clear & beautiful typography with awesome fonts that are spaced out clearly and uses friendly & engaging language</p>
     </div>
-    <div class="typo-hate wow slideInRight">
+    <div class="typo-hate wow fadeInUp delay01">
       <p class="impact">I can't stand nonsense typography and stale fonts that seem to have been lobbed in to a design last minute and utilises formal language that doesn't mean a thing</p>>
     </div>
   </div>
@@ -99,16 +96,6 @@
 
 
 <div class="case-study-divider" style="float:left;"></div>
-
-
-
-
-
-
-
-
-
-
 
 
 
