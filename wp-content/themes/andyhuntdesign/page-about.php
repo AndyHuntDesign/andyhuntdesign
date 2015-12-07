@@ -24,7 +24,7 @@
   <div class="portfolio-top-divider"></div>
 	<div class="about-fifty-left">
 		<div class="wow slideInLeft"><img src="<?php echo get_template_directory_uri();?>/images/kurt.png" alt="Kurt"></div>
-    <div class="gradient"></div>
+    <!--<div class="gradient"></div>-->
   </div>
   <div class="about-fifty-right">
     <div class="words wow slideInRight">
@@ -64,7 +64,7 @@
     <div class="about-fifty-left">
       <div class="wow fadeInUp"><img src="/wp-content/themes/andyhuntdesign/images/doodle.png"></div>
     </div>
-    <div class="about-fifty-right wow slideInRight">
+    <div class="about-fifty-right doodlecopy wow slideInRight">
       <i class="doodle"></i>
       <h2>Inspired by doodling</h2>
       <p>If I’m stuck in a bit of a pickle, I like to doodle ideas down and it helps me out. Not that I’m likely to design a website that’s a bunch of smiley faces with moustaches any time soon</p>
