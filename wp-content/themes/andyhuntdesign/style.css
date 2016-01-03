@@ -3147,6 +3147,29 @@ textarea {
   border-bottom:2px solid #ffffff;
 }
 
+ul.port-thumb-row {
+}
+
+ul.port-thumb-row li.thumb-row {
+  overflow:hidden;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+ul.port-thumb-row li.thumb-row:hover .thumb{
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+ul.port-thumb-row li.thumb-row:hover .thumb{
+  opacity:0.5;
+}
 
 
 /* Responsive */
@@ -3207,6 +3230,7 @@ textarea {
   font-size:14px;
   line-height:21px;
 }
+
 }
 
 @media only screen and (max-width: 600px)  {
